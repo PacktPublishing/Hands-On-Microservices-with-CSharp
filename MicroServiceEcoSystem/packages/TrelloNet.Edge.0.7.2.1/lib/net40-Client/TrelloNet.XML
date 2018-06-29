@@ -1,0 +1,1767 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TrelloNet</name>
+    </assembly>
+    <members>
+        <member name="M:TrelloNet.IActions.WithId(System.String)">
+            <summary>
+            GET /actions/[action_id]
+            <br/>
+            Required permissions: read
+            </summary>	
+        </member>
+        <member name="M:TrelloNet.IActions.ForBoard(TrelloNet.IBoardId,System.Collections.Generic.IEnumerable{TrelloNet.ActionType},TrelloNet.ISince,TrelloNet.Paging)">
+            <summary>
+            GET /boards/[board_id]/actions
+            <br/>
+            Required permissions: read
+            </summary>	
+        </member>
+        <member name="M:TrelloNet.IActions.ForCard(TrelloNet.ICardId,System.Collections.Generic.IEnumerable{TrelloNet.ActionType},TrelloNet.ISince,TrelloNet.Paging)">
+            <summary>
+            GET /cards/[card_id]/actions
+            <br/>
+            Required permissions: read
+            </summary>	
+        </member>
+        <member name="M:TrelloNet.IActions.ForList(TrelloNet.IListId,System.Collections.Generic.IEnumerable{TrelloNet.ActionType},TrelloNet.ISince,TrelloNet.Paging)">
+            <summary>
+            GET /lists/[list_id]/actions
+            <br/>
+            Required permissions: read
+            </summary>	
+        </member>
+        <member name="M:TrelloNet.IActions.ForMember(TrelloNet.IMemberId,System.Collections.Generic.IEnumerable{TrelloNet.ActionType},TrelloNet.ISince,TrelloNet.Paging)">
+            <summary>
+            GET /members/[member_id or username]/actions
+            <br/>
+            Required permissions: read
+            </summary>	
+        </member>
+        <member name="M:TrelloNet.IActions.ForMe(System.Collections.Generic.IEnumerable{TrelloNet.ActionType},TrelloNet.ISince,TrelloNet.Paging)">
+            <summary>
+            GET /members/me/actions
+            <br/>
+            Required permissions: read
+            </summary>	
+        </member>
+        <member name="M:TrelloNet.IActions.ForOrganization(TrelloNet.IOrganizationId,System.Collections.Generic.IEnumerable{TrelloNet.ActionType},TrelloNet.ISince,TrelloNet.Paging)">
+            <summary>
+            GET /organizations/[org_id or name]/actions
+            <br/>
+            Required permissions: read
+            </summary>	
+        </member>
+        <member name="M:TrelloNet.IActions.Search(System.String,System.Int32,TrelloNet.SearchFilter,System.Nullable{System.DateTime},System.Boolean)">
+            <summary>
+            GET /search/		
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IActions.ChangeText(TrelloNet.IActionId,System.String)">
+            <summary>
+            PUT /actions/[action_id]/
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="newText">A string with a length from 1 to 16384</param>
+        </member>
+        <member name="M:TrelloNet.IActions.Delete(TrelloNet.IActionId)">
+            <summary>
+            DELETE /actions/[action_id]/
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncActions.WithId(System.String)">
+            <summary>
+            GET /actions/[action_id]
+            <br/>
+            Required permissions: read
+            </summary>	
+        </member>
+        <member name="M:TrelloNet.IAsyncActions.ForBoard(TrelloNet.IBoardId,System.Collections.Generic.IEnumerable{TrelloNet.ActionType},TrelloNet.ISince,TrelloNet.Paging)">
+            <summary>
+            GET /boards/[board_id]/actions
+            <br/>
+            Required permissions: read
+            </summary>	
+        </member>
+        <member name="M:TrelloNet.IAsyncActions.ForCard(TrelloNet.ICardId,System.Collections.Generic.IEnumerable{TrelloNet.ActionType},TrelloNet.ISince,TrelloNet.Paging)">
+            <summary>
+            GET /cards/[card_id]/actions
+            <br/>
+            Required permissions: read
+            </summary>	
+        </member>
+        <member name="M:TrelloNet.IAsyncActions.ForList(TrelloNet.IListId,System.Collections.Generic.IEnumerable{TrelloNet.ActionType},TrelloNet.ISince,TrelloNet.Paging)">
+            <summary>
+            GET /lists/[list_id]/actions
+            <br/>
+            Required permissions: read
+            </summary>	
+        </member>
+        <member name="M:TrelloNet.IAsyncActions.ForMember(TrelloNet.IMemberId,System.Collections.Generic.IEnumerable{TrelloNet.ActionType},TrelloNet.ISince,TrelloNet.Paging)">
+            <summary>
+            GET /members/[member_id or username]/actions
+            <br/>
+            Required permissions: read
+            </summary>	
+        </member>
+        <member name="M:TrelloNet.IAsyncActions.ForMe(System.Collections.Generic.IEnumerable{TrelloNet.ActionType},TrelloNet.ISince,TrelloNet.Paging)">
+            <summary>
+            GET /members/me/actions
+            <br/>
+            Required permissions: read
+            </summary>	
+        </member>
+        <member name="M:TrelloNet.IAsyncActions.ForOrganization(TrelloNet.OrganizationId,System.Collections.Generic.IEnumerable{TrelloNet.ActionType},TrelloNet.ISince,TrelloNet.Paging)">
+            <summary>
+            GET /1/organizations/[org_id or name]/actions
+            <br/>
+            Required permissions: read
+            </summary>	
+        </member>
+        <member name="M:TrelloNet.IAsyncActions.Search(System.String,System.Int32,TrelloNet.SearchFilter,System.Boolean)">
+            <summary>
+            GET /search/		
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncActions.ChangeText(TrelloNet.IActionId,System.String)">
+            <summary>
+            PUT /actions/[action_id]/
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="newText">A string with a length from 1 to 16384</param>
+        </member>
+        <member name="M:TrelloNet.IAsyncActions.Delete(TrelloNet.IActionId)">
+            <summary>
+            DELETE /actions/[action_id]/
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.Internal.JsonCreationConverter`1.Create(System.Type,Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Create an instance of objectType, based properties in the JSON object
+            </summary>
+            <param name="objectType">type of object expected</param>
+            <param name="jObject">contents of JSON object that will be deserialized</param>
+            <returns></returns>
+        </member>
+        <member name="M:TrelloNet.IAdvanced.Get``1(System.String,System.Object)">
+            <summary>
+            Issue a GET request.
+            </summary>
+            <typeparam name="T">The type the response is deserialized to</typeparam>
+            <param name="uri">The URI to the resource</param>
+            <param name="arguments">Additional arguments to the request</param>
+            <returns>The response deserialized to the specified type</returns>
+        </member>
+        <member name="M:TrelloNet.IAdvanced.Get(System.String,System.Object)">
+            <summary>
+            Issue a GET request.
+            </summary>
+            <param name="uri">The URI to the resource</param>
+            <param name="arguments">Additional arguments to the request</param>
+            <returns>The response deserialized to a dynamic object</returns>
+        </member>
+        <member name="M:TrelloNet.IAdvanced.Put``1(System.String,System.Object)">
+            <summary>
+            Issue a PUT request.
+            </summary>
+            <typeparam name="T">The type the response is deserialized to</typeparam>
+            <param name="uri">The URI to the resource</param>
+            <param name="arguments">Additional arguments to the request</param>
+            <returns>The response deserialized to the specified type</returns>
+        </member>
+        <member name="M:TrelloNet.IAdvanced.Put(System.String,System.Object)">
+            <summary>
+            Issue a PUT request.
+            </summary>
+            <param name="uri">The URI to the resource</param>
+            <param name="arguments">Additional arguments to the request</param>
+            <returns>The response deserialized to a dynamic object</returns>
+        </member>
+        <member name="M:TrelloNet.IAdvanced.Post``1(System.String,System.Object)">
+            <summary>
+            Issue a POST request.
+            </summary>
+            <typeparam name="T">The type the response is deserialized to</typeparam>
+            <param name="uri">The URI to the resource</param>
+            <param name="arguments">Additional arguments to the request</param>
+            <returns>The response deserialized to the specified type</returns>
+        </member>
+        <member name="M:TrelloNet.IAdvanced.Post(System.String,System.Object)">
+            <summary>
+            Issue a POST request.
+            </summary>
+            <param name="uri">The URI to the resource</param>
+            <param name="arguments">Additional arguments to the request</param>
+            <returns>The response deserialized to a dynamic object</returns>
+        </member>
+        <member name="M:TrelloNet.IAdvanced.Delete``1(System.String,System.Object)">
+            <summary>
+            Issue a DELETE request.
+            </summary>
+            <typeparam name="T">The type the response is deserialized to</typeparam>
+            <param name="uri">The URI to the resource</param>
+            <param name="arguments">Additional arguments to the request</param>
+            <returns>The response deserialized to the specified type</returns>
+        </member>
+        <member name="M:TrelloNet.IAdvanced.Delete(System.String,System.Object)">
+            <summary>
+            Issue a DELETE request.
+            </summary>
+            <param name="uri">The URI to the resource</param>
+            <param name="arguments">Additional arguments to the request</param>
+            <returns>The response deserialized to a dynamic object</returns>
+        </member>
+        <member name="M:TrelloNet.IAsyncAdvanced.Get``1(System.String,System.Object)">
+            <summary>
+            Issue a GET request.
+            </summary>
+            <typeparam name="T">The type the response is deserialized to</typeparam>
+            <param name="uri">The URI to the resource</param>
+            <param name="arguments">Additional arguments to the request</param>
+            <returns>The response deserialized to the specified type</returns>
+        </member>
+        <member name="M:TrelloNet.IAsyncAdvanced.Get(System.String,System.Object)">
+            <summary>
+            Issue a GET request.
+            </summary>
+            <param name="uri">The URI to the resource</param>
+            <param name="arguments">Additional arguments to the request</param>
+            <returns>The response deserialized to a dynamic object</returns>
+        </member>
+        <member name="M:TrelloNet.IAsyncAdvanced.Put``1(System.String,System.Object)">
+            <summary>
+            Issue a PUT request.
+            </summary>
+            <typeparam name="T">The type the response is deserialized to</typeparam>
+            <param name="uri">The URI to the resource</param>
+            <param name="arguments">Additional arguments to the request</param>
+            <returns>The response deserialized to the specified type</returns>
+        </member>
+        <member name="M:TrelloNet.IAsyncAdvanced.Put(System.String,System.Object)">
+            <summary>
+            Issue a PUT request.
+            </summary>
+            <param name="uri">The URI to the resource</param>
+            <param name="arguments">Additional arguments to the request</param>
+            <returns>The response deserialized to a dynamic object</returns>
+        </member>
+        <member name="M:TrelloNet.IAsyncAdvanced.Post``1(System.String,System.Object)">
+            <summary>
+            Issue a POST request.
+            </summary>
+            <typeparam name="T">The type the response is deserialized to</typeparam>
+            <param name="uri">The URI to the resource</param>
+            <param name="arguments">Additional arguments to the request</param>
+            <returns>The response deserialized to the specified type</returns>
+        </member>
+        <member name="M:TrelloNet.IAsyncAdvanced.Post(System.String,System.Object)">
+            <summary>
+            Issue a POST request.
+            </summary>
+            <param name="uri">The URI to the resource</param>
+            <param name="arguments">Additional arguments to the request</param>
+            <returns>The response deserialized to a dynamic object</returns>
+        </member>
+        <member name="M:TrelloNet.IAsyncAdvanced.Delete``1(System.String,System.Object)">
+            <summary>
+            Issue a DELETE request.
+            </summary>
+            <typeparam name="T">The type the response is deserialized to</typeparam>
+            <param name="uri">The URI to the resource</param>
+            <param name="arguments">Additional arguments to the request</param>
+            <returns>The response deserialized to the specified type</returns>
+        </member>
+        <member name="M:TrelloNet.IAsyncAdvanced.Delete(System.String,System.Object)">
+            <summary>
+            Issue a DELETE request.
+            </summary>
+            <param name="uri">The URI to the resource</param>
+            <param name="arguments">Additional arguments to the request</param>
+            <returns>The response deserialized to a dynamic object</returns>
+        </member>
+        <member name="M:TrelloNet.IAsyncBoards.WithId(System.String)">
+            <summary>
+            GET /boards/[board_id]
+            <br/>
+            Required permissions: read
+            </summary>	
+        </member>
+        <member name="M:TrelloNet.IAsyncBoards.ForCard(TrelloNet.ICardId)">
+            <summary>
+            GET /cards/[card_id]/board
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncBoards.ForChecklist(TrelloNet.IChecklistId)">
+            <summary>
+            GET /checklists/[checklist_id]/board
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncBoards.ForList(TrelloNet.IListId)">
+            <summary>
+            GET /lists/[list_id]/board
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncBoards.ForMember(TrelloNet.IMemberId,TrelloNet.BoardFilter)">
+            <summary>
+            GET /members/[member_id or username]/boards
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncBoards.ForMe(TrelloNet.BoardFilter)">
+            <summary>
+            GET /members/me/boards
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncBoards.ForOrganization(TrelloNet.IOrganizationId,TrelloNet.BoardFilter)">
+            <summary>
+            GET /organizations/[org_id or name]/boards
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncBoards.Add(TrelloNet.NewBoard)">
+            <summary>
+            POST /boards
+            <br/>
+            Required permissions: write, add board to organization
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncBoards.Add(System.String)">
+            <summary>
+            POST /boards
+            <br/>
+            Required permissions: write, add board to organization
+            </summary>
+            <param name="name">A string with a length from 1 to 16384</param>
+        </member>
+        <member name="M:TrelloNet.IAsyncBoards.Close(TrelloNet.IBoardId)">
+            <summary>
+            PUT /boards/[board_id]/closed
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncBoards.ReOpen(TrelloNet.IBoardId)">
+            <summary>
+            PUT /boards/[board_id]/closed
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncBoards.ChangeName(TrelloNet.IBoardId,System.String)">
+            <summary>
+            PUT /boards/[board_id]/name
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="name">A string with a length from 1 to 16384</param>
+        </member>
+        <member name="M:TrelloNet.IAsyncBoards.ChangeDescription(TrelloNet.IBoardId,System.String)">
+            <summary>
+            PUT /boards/[board_id]/desc
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="description">A string with a length from 0 to 16384</param>
+        </member>
+        <member name="M:TrelloNet.IAsyncBoards.ChangePermissionLevel(TrelloNet.IBoardId,TrelloNet.PermissionLevel)">
+            <summary>
+            PUT /boards/[board_id]/prefs/permissionLevel
+            <br/>
+            Required permissions: own, write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncBoards.Update(TrelloNet.IUpdatableBoard)">
+            <summary>
+            PUT /boards/[board_id]
+            <br/>
+            Name, Desc and Closed can be updated. Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncBoards.Search(System.String,System.Int32,TrelloNet.SearchFilter,System.Boolean)">
+            <summary>
+            GET /search/		
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncBoards.MarkAsViewed(TrelloNet.IBoardId)">
+            <summary>
+            POST boards/[board_id]/markAsViewed	
+            <br/>
+            Required permissions: read		
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncBoards.AddMember(TrelloNet.IBoardId,TrelloNet.IMemberId,TrelloNet.BoardMemberType)">
+            <summary>
+            PUT /1/boards/[board_id]/members/[idMember]
+            <br />
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncBoards.AddMember(TrelloNet.IBoardId,System.String,System.String,TrelloNet.BoardMemberType)">
+            <summary>
+             PUT /1/boards/[board_id]/members
+             <br />
+             required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncBoards.RemoveMember(TrelloNet.IBoardId,TrelloNet.IMemberId)">
+            <summary>
+            DELETE /1/boards/[board_id]/members/[idMember]
+            <br />
+            required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncBoards.ChangeLabelName(TrelloNet.IBoardId,TrelloNet.Color,System.String)">
+            <summary>
+            PUT /boards/[board_id]/labelNames/[color]
+            <br />
+            required permissions: own, write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.BytesAttachment.#ctor(System.Byte[],System.String)">
+            <param name="contents">A file.</param>
+            <param name="name">A string with a length from 0 to 256.</param>
+        </member>
+        <member name="M:TrelloNet.BytesAttachment.#ctor(System.Byte[],System.String,System.String)">
+            <param name="contents">A file.</param>
+            <param name="name">A string with a length from 0 to 256.</param>
+            <param name="fileName">File name.</param>
+        </member>
+        <member name="P:TrelloNet.BytesAttachment.Contents">
+            <summary>
+            A file.
+            </summary>
+        </member>
+        <member name="P:TrelloNet.BytesAttachment.Name">
+            <summary>
+             A string with a length from 0 to 256.
+            </summary>
+        </member>
+        <member name="P:TrelloNet.BytesAttachment.FileName">
+            <summary>
+            File name.
+            </summary>
+        </member>
+        <member name="M:TrelloNet.UrlAttachment.#ctor(System.String,System.String)">
+            <param name="url">A string with a length from 1 to 16384.</param>
+            <param name="name">A string with a length from 1 to 256.</param>
+        </member>
+        <member name="M:TrelloNet.UrlAttachment.#ctor(System.String)">
+            <param name="url">A string with a length from 1 to 16384.</param>
+        </member>
+        <member name="P:TrelloNet.UrlAttachment.Name">
+            <summary>
+            A string with a length from 1 to 256 (optional).
+            </summary>
+        </member>
+        <member name="P:TrelloNet.UrlAttachment.Url">
+            <summary>
+            A string with a length from 1 to 16384.
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.WithId(System.String)">
+            <summary>
+            GET /cards/[card_id]
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.WithShortId(System.Int32,TrelloNet.IBoardId)">
+            <summary>
+            GET /boards/[board_id]/cards/[idCard]
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.ForBoard(TrelloNet.IBoardId,TrelloNet.BoardCardFilter)">
+            <summary>
+            GET /boards/[board_id]/cards
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.ForList(TrelloNet.IListId,TrelloNet.CardFilter)">
+            <summary>
+            GET /lists/[list_id]/cards
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.ForMember(TrelloNet.IMemberId,TrelloNet.CardFilter)">
+            <summary>
+            GET /members/[member_id or username]/cards
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.ForMe(TrelloNet.CardFilter)">
+            <summary>
+            GET /members/me/cards
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.ForChecklist(TrelloNet.IChecklistId,TrelloNet.CardFilter)">
+            <summary>
+            GET /checklists/[checklist_id]/cards
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.Add(TrelloNet.NewCard)">
+            <summary>
+            POST /cards
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.Add(System.String,TrelloNet.IListId)">
+            <summary>
+            POST /cards
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="name">A string with a length from 1 to 16384</param> 
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.Delete(TrelloNet.ICardId)">
+            <summary>
+            DELETE /cards/[card_id]
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.Archive(TrelloNet.ICardId)">
+            <summary>
+            PUT /cards/[card_id]/closed
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.Unarchive(TrelloNet.ICardId)">
+            <summary>
+            PUT /cards/[card_id]/closed
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.ChangeDescription(TrelloNet.ICardId,System.String)">
+            <summary>
+            PUT /cards/[card_id]/desc
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="description">A string with a length from 0 to 16384</param>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.ChangeName(TrelloNet.ICardId,System.String)">
+            <summary>
+            PUT /cards/[card_id]/name
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="name">A string with a length from 1 to 16384</param>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.ChangeDueDate(TrelloNet.ICardId,System.Nullable{System.DateTime})">
+            <summary>
+            PUT /cards/[card_id]/due
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.ChangeCheckItemName(TrelloNet.ICardId,TrelloNet.IChecklistId,TrelloNet.ICheckItemId,System.String)">
+            <summary>
+            PUT /cards/[card_id]/checklist/[idCheckList]/checkItem/[idCheckItem]/name
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.ChangeCheckItemState(TrelloNet.ICardId,TrelloNet.IChecklistId,TrelloNet.ICheckItemId,System.Boolean)">
+            <summary>
+            PUT /cards/[card_id]/checklist/[idCheckList]/checkItem/[idCheckItem]/state
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.ChangePos(TrelloNet.ICardId,System.Double)">
+            <summary>
+            PUT /cards/[card id]/pos
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.ChangePos(TrelloNet.ICardId,TrelloNet.Position)">
+            <summary>
+            PUT /cards/[card id]/pos
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.Move(TrelloNet.ICardId,TrelloNet.IListId)">
+            <summary>
+            PUT /cards/[card_id]/idList
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="list">The list the card should be moved to</param>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.Move(TrelloNet.ICardId,TrelloNet.IBoardId,TrelloNet.IListId)">
+            <summary>
+            PUT /1/cards/[card_id]/idBoard
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="board">The board the card should be moved to</param>
+            <param name="list">The list the card should be moved to on the new board</param>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.AddLabel(TrelloNet.ICardId,TrelloNet.Color)">
+            <summary>
+            POST /cards/[card_id]/labels
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.RemoveLabel(TrelloNet.ICardId,TrelloNet.Color)">
+            <summary>
+            DELETE /cards/[card_id]/labels/[color]
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.AddMember(TrelloNet.ICardId,TrelloNet.IMemberId)">
+            <summary>
+            POST /cards/[card_id]/members
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="member">The member to add to the card</param>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.RemoveMember(TrelloNet.ICardId,TrelloNet.IMemberId)">
+            <summary>
+            DELETE /cards/[card_id]/members/[idMember]
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="member">The member to remove from the card</param>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.AddComment(TrelloNet.ICardId,System.String)">
+            <summary>
+            POST /cards/[card_id]/actions/comment
+            <br/>
+            Required permissions: comments
+            </summary>
+            <param name="comment">A string with a length from 1 to 16384</param>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.AddAttachment(TrelloNet.ICardId,TrelloNet.UrlAttachment)">
+            <summary>
+            POST /cards/[card_id]/attachments
+            <br/>
+            Required permissions: attachments
+            </summary>
+            <param name="card"></param>
+            <param name="attachment">An attachment that is not null</param>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.AddAttachment(TrelloNet.ICardId,TrelloNet.FileAttachment)">
+            <summary>
+            POST /cards/[card_id]/attachments
+            <br/>
+            Required permissions: attachments
+            </summary>
+            <param name="attachment">An attachment that is not null</param>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.AddAttachment(TrelloNet.ICardId,TrelloNet.BytesAttachment)">
+            <summary>
+            POST /cards/[card_id]/attachments
+            <br/>
+            Required permissions: attachments
+            </summary>
+            <param name="attachment">An attachment that is not null</param>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.RemoveAttachment(TrelloNet.ICardId,TrelloNet.IAttachmentId)">
+            <summary>
+            DELETE /cards/[card_id]/attachments/[idAttachment]
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="attachment">The attachment to remove from the card</param>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.AddChecklist(TrelloNet.ICardId,TrelloNet.IChecklistId)">
+            <summary>
+            POST /cards/[card_id]/checklists
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="checklist">The checklist to add to the card</param>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.RemoveChecklist(TrelloNet.ICardId,TrelloNet.IChecklistId)">
+            <summary>
+            DELETE /cards/[card_id]/checklists/[idChecklist]
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="checklist">The checklist to remove from the card</param>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.Update(TrelloNet.IUpdatableCard)">
+            <summary>
+            PUT /cards/[card_id]
+            <br/>
+            Name, Desc, Closed, IdList and Due can be updated. Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncCards.Search(System.String,System.Int32,TrelloNet.SearchFilter,System.Boolean)">
+            <summary>
+            GET /search/		
+            </summary>
+        </member>
+        <member name="M:TrelloNet.FileAttachment.#ctor(System.String)">
+            <param name="filePath">A file</param>
+        </member>
+        <member name="M:TrelloNet.FileAttachment.#ctor(System.String,System.String)">
+            <param name="filePath">A file.</param>
+            <param name="name">A string with a length from 0 to 256.</param>
+        </member>
+        <member name="P:TrelloNet.FileAttachment.FilePath">
+            <summary>
+            A file.
+            </summary>
+        </member>
+        <member name="P:TrelloNet.FileAttachment.Name">
+            <summary>
+             A string with a length from 0 to 256.
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncChecklists.WithId(System.String)">
+            <summary>
+            GET /checklists/[checklist_id]
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncChecklists.ForBoard(TrelloNet.IBoardId)">
+            <summary>
+            GET /boards/[board_id]/checklists
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncChecklists.ForCard(TrelloNet.ICardId)">
+            <summary>
+            GET /cards/[card_id]/checklists
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncChecklists.Add(System.String,TrelloNet.IBoardId)">
+            <summary>
+            POST /checklists
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="name">A string with a length from 1 to 16384.</param>
+        </member>
+        <member name="M:TrelloNet.IAsyncChecklists.ChangeName(TrelloNet.IChecklistId,System.String)">
+            <summary>
+            PUT /checklists/[checklist_id]/name
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="name">A string with a length from 1 to 16384.</param>
+        </member>
+        <member name="M:TrelloNet.IAsyncChecklists.AddCheckItem(TrelloNet.IChecklistId,System.String)">
+            <summary>
+            POST /checklists/[checklist_id]/checkitems
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="name">A string with a length from 1 to 16384.</param>
+        </member>
+        <member name="M:TrelloNet.IAsyncChecklists.RemoveCheckItem(TrelloNet.IChecklistId,System.String)">
+            <summary>
+            DELETE /checklists/[checklist_id]/checkitems/[idCheckItem]
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncChecklists.Update(TrelloNet.IUpdatableChecklist)">
+            <summary>
+            PUT /checklists/[checklist_id]
+            <br/>
+            Name can be updated. Required permissions: write
+            </summary>
+        </member>
+        <member name="T:TrelloNet.Internal.TrelloEnumConverter">
+            <summary>
+            If the enum member we are trying to deserialize to is not found, it will return the first value in the enum instead of throwing.
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ILabels.ForBoard(TrelloNet.IBoardId,System.Nullable{System.Int32})">
+            <summary>
+            GET /boards/[board_id]/labels
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncLists.WithId(System.String)">
+            <summary>
+            GET /lists/[list_id]
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncLists.ForCard(TrelloNet.ICardId)">
+            <summary>
+            GET /cards/[card_id]/list
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncLists.ForBoard(TrelloNet.IBoardId,TrelloNet.ListFilter)">
+            <summary>
+            GET /boards/[board_id]/lists
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncLists.Add(TrelloNet.NewList)">
+            <summary>
+            POST /lists
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncLists.Add(System.String,TrelloNet.IBoardId)">
+            <summary>
+            POST /lists
+            <br/>
+            Required permissions: write
+            <param name="name">A string with a length from 1 to 16384</param> 
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncLists.Archive(TrelloNet.IListId)">
+            <summary>
+            PUT /lists/[list_id]/closed
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncLists.Unarchive(TrelloNet.IListId)">
+            <summary>
+            PUT /lists/[list_id]/closed
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncLists.ChangeName(TrelloNet.IListId,System.String)">
+            <summary>
+            PUT /lists/[list_id]/name
+            <br/>
+            Required permissions: write
+            <param name="name">A string with a length from 1 to 16384</param> 
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncLists.Update(TrelloNet.IUpdatableList)">
+            <summary>
+            PUT /lists/[list_id]
+            <br/>
+            Name and Closed can be updated. Required permissions: write		
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncLists.ChangePos(TrelloNet.IListId,System.Double)">
+            <summary>
+            PUT /lists/[list_id]/pos
+            <br/>
+            Required permissions: write		
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncLists.ChangePos(TrelloNet.IListId,TrelloNet.Position)">
+            <summary>
+            PUT /lists/[list_id]/pos
+            <br/>
+            Required permissions: write		
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncMembers.WithId(System.String)">
+            <summary>
+            GET /members/[member_id or username]
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncMembers.Me">
+            <summary>
+            GET /members/me
+            <br/>
+            This call will respond as if you had supplied the username associated with the supplied token.
+            Required permissions: read.
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncMembers.ForBoard(TrelloNet.IBoardId,TrelloNet.MemberFilter)">
+            <summary>
+            GET /boards/[board_id]/members
+            <br/>
+            Required permissions: read.
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncMembers.ForCard(TrelloNet.ICardId)">
+            <summary>
+            GET /cards/[card_id]/members
+            <br/>
+            Required permissions: read.
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncMembers.ForOrganization(TrelloNet.IOrganizationId,TrelloNet.MemberFilter)">
+            <summary>
+            GET /organizations/[org_id or name]/members
+            <br/>
+            Required permissions: read.
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncMembers.ForToken(System.String)">
+            <summary>
+            GET /tokens/[token]/member
+            <br/>
+            Required permissions: read.
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncMembers.InvitedForBoard(TrelloNet.IBoardId)">
+            <summary>
+            GET /boards/[board_id]/membersInvited
+            Required permissions: read.
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncMembers.Search(System.String,System.Int32,TrelloNet.SearchFilter,System.Boolean)">
+            <summary>
+            GET /search/		
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncNotifications.WithId(System.String)">
+            <summary>
+            GET /notifications/[notification_id]
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncNotifications.ForMe(System.Collections.Generic.IEnumerable{TrelloNet.NotificationType},TrelloNet.Internal.ReadFilter,TrelloNet.Paging)">
+            <summary>
+            GET /members/[member_id or username]/notifications
+            <br/>
+            Required permissions: read, own
+            You can only read the notifications for the member associated with the supplied token.
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncOrganizations.WithId(System.String)">
+            <summary>
+            GET /organizations/[org_id or name]
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncOrganizations.ForBoard(TrelloNet.IBoardId)">
+            <summary>
+            GET /boards/[board_id]/organization
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncOrganizations.ForMember(TrelloNet.IMemberId,TrelloNet.OrganizationFilter)">
+            <summary>
+            GET /members/[member_id or username]/organizations
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncOrganizations.ForMe(TrelloNet.OrganizationFilter)">
+            <summary>
+            GET /members/me/organizations
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncOrganizations.Search(System.String,System.Int32,TrelloNet.SearchFilter,System.Boolean)">
+            <summary>
+            GET /search/		
+            </summary>
+        </member>
+        <member name="M:TrelloNet.NewBoard.#ctor(System.String)">
+            <param name="name">A string with a length from 1 to 16384.</param>
+        </member>
+        <member name="P:TrelloNet.NewBoard.Name">
+            <summary>
+            A string with a length from 1 to 16384 (required).
+            </summary>
+        </member>
+        <member name="P:TrelloNet.NewBoard.Desc">
+            <summary>
+            A string with a length from 1 to 16384 (optional).
+            </summary>
+        </member>
+        <member name="P:TrelloNet.NewBoard.IdOrganization">
+            <summary>
+             The id or name of the organization to add the board to (optional).
+            </summary>
+        </member>
+        <member name="M:TrelloNet.NewCard.#ctor(System.String,TrelloNet.IListId)">
+            <param name="name">A string with a length from 1 to 16384.</param>
+            <param name="list">Id of the list that the card should be added to.</param>
+        </member>
+        <member name="P:TrelloNet.NewCard.Name">
+            <summary>
+            A string with a length from 1 to 16384 (required).
+            </summary>
+        </member>
+        <member name="P:TrelloNet.NewCard.IdList">
+            <summary>
+            Id of the list that the card should be added to (required).
+            </summary>
+        </member>
+        <member name="P:TrelloNet.NewCard.Desc">
+            <summary>
+            A string with a length from 1 to 16384 (optional).
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IBoards.WithId(System.String)">
+            <summary>
+            GET /boards/[board_id]
+            <br/>
+            Required permissions: read
+            </summary>	
+        </member>
+        <member name="M:TrelloNet.IBoards.ForCard(TrelloNet.ICardId)">
+            <summary>
+            GET /cards/[card_id]/board
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IBoards.ForChecklist(TrelloNet.IChecklistId)">
+            <summary>
+            GET /checklists/[checklist_id]/board
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IBoards.ForList(TrelloNet.IListId)">
+            <summary>
+            GET /lists/[list_id]/board
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IBoards.ForMember(TrelloNet.IMemberId,TrelloNet.BoardFilter)">
+            <summary>
+            GET /members/[member_id or username]/boards
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IBoards.ForMe(TrelloNet.BoardFilter)">
+            <summary>
+            GET /members/me/boards
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IBoards.ForOrganization(TrelloNet.IOrganizationId,TrelloNet.BoardFilter)">
+            <summary>
+            GET /organizations/[org_id or name]/boards
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IBoards.Add(TrelloNet.NewBoard)">
+            <summary>
+            POST /boards
+            <br/>
+            Required permissions: write, add board to organization
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IBoards.Add(System.String)">
+            <summary>
+            POST /boards
+            <br/>
+            Required permissions: write, add board to organization
+            </summary>
+            <param name="name">A string with a length from 1 to 16384</param>
+        </member>
+        <member name="M:TrelloNet.IBoards.Close(TrelloNet.IBoardId)">
+            <summary>
+            PUT /boards/[board_id]/closed
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IBoards.ReOpen(TrelloNet.IBoardId)">
+            <summary>
+            PUT /boards/[board_id]/closed
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IBoards.ChangeName(TrelloNet.IBoardId,System.String)">
+            <summary>
+            PUT /boards/[board_id]/name
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="name">A string with a length from 1 to 16384</param>
+        </member>
+        <member name="M:TrelloNet.IBoards.ChangeDescription(TrelloNet.IBoardId,System.String)">
+            <summary>
+            PUT /boards/[board_id]/desc
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="description">A string with a length from 0 to 16384</param>
+        </member>
+        <member name="M:TrelloNet.IBoards.ChangePermissionLevel(TrelloNet.IBoardId,TrelloNet.PermissionLevel)">
+            <summary>
+            PUT /boards/[board_id]/prefs/permissionLevel
+            <br/>
+            Required permissions: own, write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IBoards.Update(TrelloNet.IUpdatableBoard)">
+            <summary>
+            PUT /boards/[board_id]
+            <br/>
+            Name, Desc and Closed can be updated. Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IBoards.Search(System.String,System.Int32,TrelloNet.SearchFilter,System.Boolean)">
+            <summary>
+            GET /search/		
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IBoards.MarkAsViewed(TrelloNet.IBoardId)">
+            <summary>
+            POST boards/[board_id]/markAsViewed	
+            <br/>
+            Required permissions: read		
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IBoards.AddMember(TrelloNet.IBoardId,TrelloNet.IMemberId,TrelloNet.BoardMemberType)">
+            <summary>
+            PUT /boards/[board_id]/members/[idMember]
+            <br />
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IBoards.AddMember(TrelloNet.IBoardId,System.String,System.String,TrelloNet.BoardMemberType)">
+            <summary>
+             PUT /boards/[board_id]/members
+             <br />
+             required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IBoards.RemoveMember(TrelloNet.IBoardId,TrelloNet.IMemberId)">
+            <summary>
+            DELETE /boards/[board_id]/members/[idMember]
+            <br />
+            required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IBoards.ChangeLabelName(TrelloNet.IBoardId,TrelloNet.Color,System.String)">
+            <summary>
+            PUT /boards/[board_id]/labelNames/[color]
+            <br />
+            required permissions: own, write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ICards.WithId(System.String)">
+            <summary>
+            GET /cards/[card_id]
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ICards.WithShortId(System.Int32,TrelloNet.IBoardId)">
+            <summary>
+            GET /boards/[board_id]/cards/[idCard]
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ICards.ForBoard(TrelloNet.IBoardId,TrelloNet.BoardCardFilter)">
+            <summary>
+            GET /boards/[board_id]/cards
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ICards.ForList(TrelloNet.IListId,TrelloNet.CardFilter)">
+            <summary>
+            GET /lists/[list_id]/cards
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ICards.ForMember(TrelloNet.IMemberId,TrelloNet.CardFilter)">
+            <summary>
+            GET /members/[member_id or username]/cards
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ICards.ForMe(TrelloNet.CardFilter)">
+            <summary>
+            GET /members/me/cards
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ICards.ForChecklist(TrelloNet.IChecklistId,TrelloNet.CardFilter)">
+            <summary>
+            GET /checklists/[checklist_id]/cards
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ICards.Add(TrelloNet.NewCard)">
+            <summary>
+            POST /cards
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ICards.Add(System.String,TrelloNet.IListId)">
+            <summary>
+            POST /cards
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="name">A string with a length from 1 to 16384</param> 
+        </member>
+        <member name="M:TrelloNet.ICards.Delete(TrelloNet.ICardId)">
+            <summary>
+            DELETE /cards/[card_id]
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ICards.Archive(TrelloNet.ICardId)">
+            <summary>
+            PUT /cards/[card_id]/closed
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ICards.Unarchive(TrelloNet.ICardId)">
+            <summary>
+            PUT /cards/[card_id]/closed
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ICards.ChangeDescription(TrelloNet.ICardId,System.String)">
+            <summary>
+            PUT /cards/[card_id]/desc
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="description">A string with a length from 0 to 16384</param>
+        </member>
+        <member name="M:TrelloNet.ICards.ChangeName(TrelloNet.ICardId,System.String)">
+            <summary>
+            PUT /cards/[card_id]/name
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="name">A string with a length from 1 to 16384</param>
+        </member>
+        <member name="M:TrelloNet.ICards.ChangeDueDate(TrelloNet.ICardId,System.Nullable{System.DateTime})">
+            <summary>
+            PUT /cards/[card_id]/due
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ICards.ChangeCheckItemName(TrelloNet.ICardId,TrelloNet.IChecklistId,TrelloNet.ICheckItemId,System.String)">
+            <summary>
+            PUT /cards/[card_id]/checklist/[idCheckList]/checkItem/[idCheckItem]/name
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ICards.ChangeCheckItemState(TrelloNet.ICardId,TrelloNet.IChecklistId,TrelloNet.ICheckItemId,System.Boolean)">
+            <summary>
+            PUT /cards/[card_id]/checklist/[idCheckList]/checkItem/[idCheckItem]/state
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ICards.ChangePos(TrelloNet.ICardId,System.Double)">
+            <summary>
+            PUT /cards/[card id]/pos
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ICards.ChangePos(TrelloNet.ICardId,TrelloNet.Position)">
+            <summary>
+            PUT /cards/[card id]/pos
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ICards.Move(TrelloNet.ICardId,TrelloNet.IListId)">
+            <summary>
+            PUT /cards/[card_id]/idList
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="list">The list the card should be moved to</param>
+        </member>
+        <member name="M:TrelloNet.ICards.Move(TrelloNet.ICardId,TrelloNet.IBoardId,TrelloNet.IListId)">
+            <summary>
+            PUT /1/cards/[card_id]/idBoard
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="board">The board the card should be moved to</param>
+            <param name="list">The list the card should be moved to on the new board</param>
+        </member>
+        <member name="M:TrelloNet.ICards.AddLabel(TrelloNet.ICardId,TrelloNet.Color)">
+            <summary>
+            POST /cards/[card_id]/labels
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ICards.RemoveLabel(TrelloNet.ICardId,TrelloNet.Color)">
+            <summary>
+            DELETE /cards/[card_id]/labels/[color]
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ICards.AddMember(TrelloNet.ICardId,TrelloNet.IMemberId)">
+            <summary>
+            POST /cards/[card_id]/members
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="member">The member to add to the card</param>
+        </member>
+        <member name="M:TrelloNet.ICards.RemoveMember(TrelloNet.ICardId,TrelloNet.IMemberId)">
+            <summary>
+            DELETE /cards/[card_id]/members/[idMember]
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="member">The member to remove from the card</param>
+        </member>
+        <member name="M:TrelloNet.ICards.AddComment(TrelloNet.ICardId,System.String)">
+            <summary>
+            POST /cards/[card_id]/actions/comment
+            <br/>
+            Required permissions: comments
+            </summary>
+            <param name="comment">A string with a length from 1 to 16384</param>
+        </member>
+        <member name="M:TrelloNet.ICards.AddAttachment(TrelloNet.ICardId,TrelloNet.UrlAttachment)">
+            <summary>
+            POST /cards/[card_id]/attachments
+            <br/>
+            Required permissions: attachments
+            </summary>
+            <param name="attachment">An attachment that is not null</param>
+        </member>
+        <member name="M:TrelloNet.ICards.AddAttachment(TrelloNet.ICardId,TrelloNet.FileAttachment)">
+            <summary>
+            POST /cards/[card_id]/attachments
+            <br/>
+            Required permissions: attachments
+            </summary>
+            <param name="attachment">An attachment that is not null</param>
+        </member>
+        <member name="M:TrelloNet.ICards.AddAttachment(TrelloNet.ICardId,TrelloNet.BytesAttachment)">
+            <summary>
+            POST /cards/[card_id]/attachments
+            <br/>
+            Required permissions: attachments
+            </summary>
+            <param name="attachment">An attachment that is not null</param>
+        </member>
+        <member name="M:TrelloNet.ICards.RemoveAttachment(TrelloNet.ICardId,TrelloNet.IAttachmentId)">
+            <summary>
+            DELETE /cards/[card_id]/attachments/[idAttachment]
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="attachment">The attachment to remove from the card</param>
+        </member>
+        <member name="M:TrelloNet.ICards.AddChecklist(TrelloNet.ICardId,TrelloNet.IChecklistId)">
+            <summary>
+            POST /cards/[card_id]/checklists
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="checklist">The checklist to add to the card</param>
+        </member>
+        <member name="M:TrelloNet.ICards.RemoveChecklist(TrelloNet.ICardId,TrelloNet.IChecklistId)">
+            <summary>
+            DELETE /cards/[card_id]/checklists/[idChecklist]
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="checklist">The checklist to remove from the card</param>
+        </member>
+        <member name="M:TrelloNet.ICards.Update(TrelloNet.IUpdatableCard)">
+            <summary>
+            PUT /cards/[card_id]
+            <br/>
+            Name, Desc, Closed, IdList and Due can be updated. Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ICards.Search(System.String,System.Int32,TrelloNet.SearchFilter,System.Boolean)">
+            <summary>
+            GET /search/		
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IChecklists.WithId(System.String)">
+            <summary>
+            GET /checklists/[checklist_id]
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IChecklists.ForBoard(TrelloNet.IBoardId)">
+            <summary>
+            GET /boards/[board_id]/checklists
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IChecklists.ForCard(TrelloNet.ICardId)">
+            <summary>
+            GET /cards/[card_id]/checklists
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IChecklists.Add(System.String,TrelloNet.IBoardId)">
+            <summary>
+            POST /checklists
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="name">A string with a length from 1 to 16384.</param>
+        </member>
+        <member name="M:TrelloNet.IChecklists.ChangeName(TrelloNet.IChecklistId,System.String)">
+            <summary>
+            PUT /checklists/[checklist_id]/name
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="name">A string with a length from 1 to 16384.</param>
+        </member>
+        <member name="M:TrelloNet.IChecklists.AddCheckItem(TrelloNet.IChecklistId,System.String)">
+            <summary>
+            POST /checklists/[checklist_id]/checkitems
+            <br/>
+            Required permissions: write
+            </summary>
+            <param name="name">A string with a length from 1 to 16384.</param>
+        </member>
+        <member name="M:TrelloNet.IChecklists.RemoveCheckItem(TrelloNet.IChecklistId,System.String)">
+            <summary>
+            DELETE /checklists/[checklist_id]/checkitems/[idCheckItem]
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IChecklists.Update(TrelloNet.IUpdatableChecklist)">
+            <summary>
+            PUT /checklists/[checklist_id]
+            <br/>
+            Name can be updated. Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ILists.WithId(System.String)">
+            <summary>
+            GET /lists/[list_id]
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ILists.ForCard(TrelloNet.ICardId)">
+            <summary>
+            GET /cards/[card_id]/list
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ILists.ForBoard(TrelloNet.IBoardId,TrelloNet.ListFilter)">
+            <summary>
+            GET /boards/[board_id]/lists
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ILists.Add(TrelloNet.NewList)">
+            <summary>
+            POST /lists
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ILists.Add(System.String,TrelloNet.IBoardId)">
+            <summary>
+            POST /lists
+            <br/>
+            Required permissions: write
+            <param name="name">A string with a length from 1 to 16384</param> 
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ILists.Archive(TrelloNet.IListId)">
+            <summary>
+            PUT /lists/[list_id]/closed
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ILists.Unarchive(TrelloNet.IListId)">
+            <summary>
+            PUT /lists/[list_id]/closed
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ILists.ChangeName(TrelloNet.IListId,System.String)">
+            <summary>
+            PUT /lists/[list_id]/name
+            <br/>
+            Required permissions: write
+            <param name="name">A string with a length from 1 to 16384</param> 
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ILists.Update(TrelloNet.IUpdatableList)">
+            <summary>
+            PUT /lists/[list_id]
+            <br/>
+            Name and Closed can be updated. Required permissions: write		
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ILists.ChangePos(TrelloNet.IListId,System.Double)">
+            <summary>
+            PUT /lists/[list_id]/pos
+            <br/>
+            Required permissions: write		
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ILists.ChangePos(TrelloNet.IListId,TrelloNet.Position)">
+            <summary>
+            PUT /lists/[list_id]/pos
+            <br/>
+            Required permissions: write		
+            </summary>
+        </member>
+        <member name="M:TrelloNet.NewList.#ctor(System.String,TrelloNet.IBoardId)">
+            <param name="name">A string with a length from 1 to 16384.</param>
+            <param name="board">Id of the board that the list should be added to.</param>
+        </member>
+        <member name="P:TrelloNet.NewList.Name">
+            <summary>
+            A string with a length from 1 to 16384 (required).
+            </summary>
+        </member>
+        <member name="P:TrelloNet.NewList.IdBoard">
+            <summary>
+            Id of the board that the list should be added to (required).
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IMembers.WithId(System.String)">
+            <summary>
+            GET /members/[member_id or username]
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IMembers.Me">
+            <summary>
+            GET /members/me
+            <br/>
+            This call will respond as if you had supplied the username associated with the supplied token.
+            Required permissions: read.
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IMembers.ForBoard(TrelloNet.IBoardId,TrelloNet.MemberFilter)">
+            <summary>
+            GET /boards/[board_id]/members
+            <br/>
+            Required permissions: read.
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IMembers.ForCard(TrelloNet.ICardId)">
+            <summary>
+            GET /cards/[card_id]/members
+            <br/>
+            Required permissions: read.
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IMembers.ForOrganization(TrelloNet.IOrganizationId,TrelloNet.MemberFilter)">
+            <summary>
+            GET /organizations/[org_id or name]/members
+            <br/>
+            Required permissions: read.
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IMembers.ForToken(System.String)">
+            <summary>
+            GET /tokens/[token]/member
+            <br/>
+            Required permissions: read.
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IMembers.InvitedForBoard(TrelloNet.IBoardId)">
+            <summary>
+            GET /boards/[board_id]/membersInvited
+            Required permissions: read.
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IMembers.Search(System.String,System.Int32,TrelloNet.SearchFilter,System.Boolean)">
+            <summary>
+            GET /search/		
+            </summary>
+        </member>
+        <member name="M:TrelloNet.INotifications.WithId(System.String)">
+            <summary>
+            GET /notifications/[notification_id]
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.INotifications.ForMe(System.Collections.Generic.IEnumerable{TrelloNet.NotificationType},TrelloNet.Internal.ReadFilter,TrelloNet.Paging)">
+            <summary>
+            GET /members/[member_id or username]/notifications
+            <br/>
+            Required permissions: read, own
+            You can only read the notifications for the member associated with the supplied token.
+            </summary>
+        </member>
+        <member name="M:TrelloNet.INotifications.ChangeUnread(TrelloNet.INotificationId,System.Boolean)">
+            <summary>
+            PUT /notifications/[idNotification]/unread
+            <br/>
+            Required permissions: write
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IOrganizations.WithId(System.String)">
+            <summary>
+            GET /organizations/[org_id or name]
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IOrganizations.ForBoard(TrelloNet.IBoardId)">
+            <summary>
+            GET /boards/[board_id]/organization
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IOrganizations.ForMember(TrelloNet.IMemberId,TrelloNet.OrganizationFilter)">
+            <summary>
+            GET /members/[member_id or username]/organizations
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IOrganizations.ForMe(TrelloNet.OrganizationFilter)">
+            <summary>
+            GET /members/me/organizations
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IOrganizations.Search(System.String,System.Int32,TrelloNet.SearchFilter,System.Boolean)">
+            <summary>
+            GET /search/		
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncTokens.WithToken(System.String)">
+            <summary>
+            GET /tokens/[token]
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.ITokens.WithToken(System.String)">
+            <summary>
+            GET /tokens/[token]
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncWebhooks.WithId(System.String)">
+            <summary>
+            GET /webhooks/[webhook_id]
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncWebhooks.Add(System.String,System.String,System.String)">
+            <summary>
+            POST /webhooks
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncWebhooks.Delete(TrelloNet.IWebhookId)">
+            <summary>
+            DELETE /webhooks/[webhook_id]
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IAsyncWebhooks.Delete(System.String)">
+            <summary>
+            DELETE /webhooks/[webhook_id]
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IWebhooks.WithId(System.String)">
+            <summary>
+            GET /webhooks/[webhook_id]
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IWebhooks.Add(System.String,System.String,System.String)">
+            <summary>
+            POST /webhooks
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IWebhooks.Delete(TrelloNet.IWebhookId)">
+            <summary>
+            DELETE /webhooks/[webhook_id]
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+        <member name="M:TrelloNet.IWebhooks.Delete(System.String)">
+            <summary>
+            DELETE /webhooks/[webhook_id]
+            <br/>
+            Required permissions: read
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NodaTime.NetworkClock</name>
+    </assembly>
+    <members>
+        <member name="T:NodaTime.NetworkClock">
+            <summary>
+            Represents a clock that retrieves its time from a NTP server, rather than from the local computer.
+            </summary>
+        </member>
+        <member name="F:NodaTime.NetworkClock.Instance">
+            <summary>
+            The singleton instance of <see cref="T:NodaTime.NetworkClock" />.
+            </summary>
+        </member>
+        <member name="P:NodaTime.NetworkClock.NtpServer">
+            <summary>
+            Gets or sets the NTP server to use.  Defaults to "pool.ntp.org"
+            </summary>
+        </member>
+        <member name="P:NodaTime.NetworkClock.CacheTimeout">
+            <summary>
+            Gets or sets the timeout for the cache, which prevents the NTP server from being called too often.
+            Within the cache period, the time is resolved by taking the value last received, and adding the time elapsed since that call.
+            Defaults to 15 minutes.
+            </summary>
+        </member>
+        <member name="M:NodaTime.NetworkClock.GetCurrentInstant">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

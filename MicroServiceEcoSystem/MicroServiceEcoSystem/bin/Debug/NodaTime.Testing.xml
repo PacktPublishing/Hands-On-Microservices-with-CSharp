@@ -1,0 +1,739 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NodaTime.Testing</name>
+    </assembly>
+    <members>
+        <member name="T:NodaTime.Testing.Extensions.DurationConstruction">
+            <summary>
+            Extension methods for constructing <see cref="T:NodaTime.Duration"/> values.
+            </summary>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.DurationConstruction.Days(System.Double)">
+            <summary>
+            Constructs a duration with the specified number of days.
+            </summary>
+            <param name="days">The desired number of days.</param>
+            <returns>A duration with the specified number of days.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.DurationConstruction.Days(System.Int32)">
+            <summary>
+            Constructs a duration with the specified number of days.
+            </summary>
+            <param name="days">The desired number of days.</param>
+            <returns>A duration with the specified number of days.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.DurationConstruction.Hours(System.Double)">
+            <summary>
+            Constructs a duration with the specified number of hours.
+            </summary>
+            <param name="hours">The desired number of hours.</param>
+            <returns>A duration with the specified number of hours.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.DurationConstruction.Hours(System.Int32)">
+            <summary>
+            Constructs a duration with the specified number of hours.
+            </summary>
+            <param name="hours">The desired number of hours.</param>
+            <returns>A duration with the specified number of hours.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.DurationConstruction.Minutes(System.Double)">
+            <summary>
+            Constructs a duration with the specified number of minutes.
+            </summary>
+            <param name="minutes">The desired number of minutes.</param>
+            <returns>A duration with the specified number of minutes.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.DurationConstruction.Minutes(System.Int32)">
+            <summary>
+            Constructs a duration with the specified number of minutes.
+            </summary>
+            <param name="minutes">The desired number of minutes.</param>
+            <returns>A duration with the specified number of minutes.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.DurationConstruction.Minutes(System.Int64)">
+            <summary>
+            Constructs a duration with the specified number of minutes.
+            </summary>
+            <param name="minutes">The desired number of minutes.</param>
+            <returns>A duration with the specified number of minutes.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.DurationConstruction.Seconds(System.Double)">
+            <summary>
+            Constructs a duration with the specified number of seconds.
+            </summary>
+            <param name="seconds">The desired number of seconds.</param>
+            <returns>A duration with the specified number of seconds.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.DurationConstruction.Seconds(System.Int32)">
+            <summary>
+            Constructs a duration with the specified number of seconds.
+            </summary>
+            <param name="seconds">The desired number of seconds.</param>
+            <returns>A duration with the specified number of seconds.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.DurationConstruction.Seconds(System.Int64)">
+            <summary>
+            Constructs a duration with the specified number of seconds.
+            </summary>
+            <param name="seconds">The desired number of seconds.</param>
+            <returns>A duration with the specified number of seconds.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.DurationConstruction.Milliseconds(System.Double)">
+            <summary>
+            Constructs a duration with the specified number of milliseconds.
+            </summary>
+            <param name="milliseconds">The desired number of milliseconds.</param>
+            <returns>A duration with the specified number of milliseconds.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.DurationConstruction.Milliseconds(System.Int32)">
+            <summary>
+            Constructs a duration with the specified number of milliseconds.
+            </summary>
+            <param name="milliseconds">The desired number of milliseconds.</param>
+            <returns>A duration with the specified number of milliseconds.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.DurationConstruction.Milliseconds(System.Int64)">
+            <summary>
+            Constructs a duration with the specified number of milliseconds.
+            </summary>
+            <param name="milliseconds">The desired number of milliseconds.</param>
+            <returns>A duration with the specified number of milliseconds.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.DurationConstruction.Ticks(System.Double)">
+            <summary>
+            Constructs a duration with the specified number of ticks.
+            </summary>
+            <param name="ticks">The desired number of ticks.</param>
+            <returns>A duration with the specified number of ticks.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.DurationConstruction.Ticks(System.Int32)">
+            <summary>
+            Constructs a duration with the specified number of ticks.
+            </summary>
+            <param name="ticks">The desired number of ticks.</param>
+            <returns>A duration with the specified number of ticks.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.DurationConstruction.Ticks(System.Int64)">
+            <summary>
+            Constructs a duration with the specified number of ticks.
+            </summary>
+            <param name="ticks">The desired number of ticks.</param>
+            <returns>A duration with the specified number of ticks.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.DurationConstruction.Nanoseconds(System.Double)">
+            <summary>
+            Constructs a duration with the specified number of nanoseconds.
+            </summary>
+            <param name="nanoseconds">The desired number of nanoseconds.</param>
+            <returns>A duration with the specified number of nanoseconds.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.DurationConstruction.Nanoseconds(System.Int32)">
+            <summary>
+            Constructs a duration with the specified number of nanoseconds.
+            </summary>
+            <param name="nanoseconds">The desired number of nanoseconds.</param>
+            <returns>A duration with the specified number of nanoseconds.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.DurationConstruction.Nanoseconds(System.Int64)">
+            <summary>
+            Constructs a duration with the specified number of nanoseconds.
+            </summary>
+            <param name="nanoseconds">The desired number of nanoseconds.</param>
+            <returns>A duration with the specified number of nanoseconds.</returns>
+        </member>
+        <member name="T:NodaTime.Testing.Extensions.LocalDateConstruction">
+            <summary>
+            Extension methods for constructing <see cref="T:NodaTime.LocalDate"/> values in the ISO calendar.
+            </summary>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.LocalDateConstruction.January(System.Int32,System.Int32)">
+            <summary>
+            Constructs a <see cref="T:NodaTime.LocalDate"/> in January on the given day and year.
+            </summary>
+            <example>
+            <code>
+            var date = 1.January(2017);
+            </code>
+            </example>
+            <param name="day">The day of January for the new date</param>
+            <param name="year">The year for the new date</param>
+            <returns>The specified date in January.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.LocalDateConstruction.February(System.Int32,System.Int32)">
+            <summary>
+            Constructs a <see cref="T:NodaTime.LocalDate"/> in February on the given day and year.
+            </summary>
+            <example>
+            <code>
+            var date = 1.February(2017);
+            </code>
+            </example>
+            <param name="day">The day of February for the new date</param>
+            <param name="year">The year for the new date</param>
+            <returns>The specified date in February.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.LocalDateConstruction.March(System.Int32,System.Int32)">
+            <summary>
+            Constructs a <see cref="T:NodaTime.LocalDate"/> in March on the given day and year.
+            </summary>
+            <example>
+            <code>
+            var date = 1.March(2017);
+            </code>
+            </example>
+            <param name="day">The day of March for the new date</param>
+            <param name="year">The year for the new date</param>
+            <returns>The specified date in March.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.LocalDateConstruction.April(System.Int32,System.Int32)">
+            <summary>
+            Constructs a <see cref="T:NodaTime.LocalDate"/> in April on the given day and year.
+            </summary>
+            <example>
+            <code>
+            var date = 1.April(2017);
+            </code>
+            </example>
+            <param name="day">The day of April for the new date</param>
+            <param name="year">The year for the new date</param>
+            <returns>The specified date in April.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.LocalDateConstruction.May(System.Int32,System.Int32)">
+            <summary>
+            Constructs a <see cref="T:NodaTime.LocalDate"/> in May on the given day and year.
+            </summary>
+            <example>
+            <code>
+            var date = 1.May(2017);
+            </code>
+            </example>
+            <param name="day">The day of May for the new date</param>
+            <param name="year">The year for the new date</param>
+            <returns>The specified date in May.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.LocalDateConstruction.June(System.Int32,System.Int32)">
+            <summary>
+            Constructs a <see cref="T:NodaTime.LocalDate"/> in June on the given day and year.
+            </summary>
+            <example>
+            <code>
+            var date = 1.June(2017);
+            </code>
+            </example>
+            <param name="day">The day of June for the new date</param>
+            <param name="year">The year for the new date</param>
+            <returns>The specified date in June.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.LocalDateConstruction.July(System.Int32,System.Int32)">
+            <summary>
+            Constructs a <see cref="T:NodaTime.LocalDate"/> in July on the given day and year.
+            </summary>
+            <example>
+            <code>
+            var date = 1.July(2017);
+            </code>
+            </example>
+            <param name="day">The day of July for the new date</param>
+            <param name="year">The year for the new date</param>
+            <returns>The specified date in July.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.LocalDateConstruction.August(System.Int32,System.Int32)">
+            <summary>
+            Constructs a <see cref="T:NodaTime.LocalDate"/> in August on the given day and year.
+            </summary>
+            <example>
+            <code>
+            var date = 1.August(2017);
+            </code>
+            </example>
+            <param name="day">The day of August for the new date</param>
+            <param name="year">The year for the new date</param>
+            <returns>The specified date in August.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.LocalDateConstruction.September(System.Int32,System.Int32)">
+            <summary>
+            Constructs a <see cref="T:NodaTime.LocalDate"/> in September on the given day and year.
+            </summary>
+            <example>
+            <code>
+            var date = 1.September(2017);
+            </code>
+            </example>
+            <param name="day">The day of September for the new date</param>
+            <param name="year">The year for the new date</param>
+            <returns>The specified date in September.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.LocalDateConstruction.October(System.Int32,System.Int32)">
+            <summary>
+            Constructs a <see cref="T:NodaTime.LocalDate"/> in October on the given day and year.
+            </summary>
+            <example>
+            <code>
+            var date = 1.October(2017);
+            </code>
+            </example>
+            <param name="day">The day of October for the new date</param>
+            <param name="year">The year for the new date</param>
+            <returns>The specified date in October.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.LocalDateConstruction.November(System.Int32,System.Int32)">
+            <summary>
+            Constructs a <see cref="T:NodaTime.LocalDate"/> in November on the given day and year.
+            </summary>
+            <example>
+            <code>
+            var date = 1.November(2017);
+            </code>
+            </example>
+            <param name="day">The day of November for the new date</param>
+            <param name="year">The year for the new date</param>
+            <returns>The specified date in November.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.Extensions.LocalDateConstruction.December(System.Int32,System.Int32)">
+            <summary>
+            Constructs a <see cref="T:NodaTime.LocalDate"/> in December on the given day and year.
+            </summary>
+            <example>
+            <code>
+            var date = 1.December(2017);
+            </code>
+            </example>
+            <param name="day">The day of December for the new date</param>
+            <param name="year">The year for the new date</param>
+            <returns>The specified date in December.</returns>
+        </member>
+        <member name="T:NodaTime.Testing.FakeClock">
+            <summary>
+            Clock which can be constructed with an initial instant, and then advanced programmatically (and optionally,
+            automatically advanced on each read).
+            This class is designed to be used when testing classes which take an <see cref="T:NodaTime.IClock"/> as a dependency.
+            </summary>
+            <remarks>
+            This class is somewhere between a fake and a stub, depending on how it's used - if it's set to
+            <see cref="P:NodaTime.Testing.FakeClock.AutoAdvance"/> then time will pass, but in a pretty odd way (i.e. dependent on how
+            often it's consulted).
+            </remarks>
+            <threadsafety>
+            This type is thread-safe, primarily in order to allow <see cref="T:NodaTime.IClock"/> to be documented as
+            "thread safe in all built-in implementations".
+            </threadsafety>
+        </member>
+        <member name="M:NodaTime.Testing.FakeClock.#ctor(NodaTime.Instant)">
+            <summary>
+            Creates a fake clock initially set to the given instant, with no auto-advance.
+            </summary>
+            <param name="initial">The initial instant.</param>
+        </member>
+        <member name="M:NodaTime.Testing.FakeClock.#ctor(NodaTime.Instant,NodaTime.Duration)">
+            <summary>
+            Creates a fake clock initially set to the given instant. The clock will advance by the given duration on
+            each read.
+            </summary>
+            <param name="initial">The initial instant.</param>
+            <param name="autoAdvance">The duration to advance the clock on each read.</param>
+            <seealso cref="P:NodaTime.Testing.FakeClock.AutoAdvance"/>
+        </member>
+        <member name="M:NodaTime.Testing.FakeClock.FromUtc(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Returns a fake clock initially set to midnight of the given year/month/day in UTC in the ISO calendar.
+            The value of the <see cref="P:NodaTime.Testing.FakeClock.AutoAdvance"/> property will be initialised to zero.
+            </summary>
+            <param name="year">The year. This is the "absolute year",
+            so a value of 0 means 1 BC, for example.</param>
+            <param name="monthOfYear">The month of year.</param>
+            <param name="dayOfMonth">The day of month.</param>
+            <returns>A <see cref="T:NodaTime.Testing.FakeClock"/> initialised to the given instant, with no auto-advance.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.FakeClock.FromUtc(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Returns a fake clock initially set to the given year/month/day/time in UTC in the ISO calendar.
+            The value of the <see cref="P:NodaTime.Testing.FakeClock.AutoAdvance"/> property will be initialised to zero.
+            </summary>
+            <param name="year">The year. This is the "absolute year",
+            so a value of 0 means 1 BC, for example.</param>
+            <param name="monthOfYear">The month of year.</param>
+            <param name="dayOfMonth">The day of month.</param>
+            <param name="hourOfDay">The hour.</param>
+            <param name="minuteOfHour">The minute.</param>
+            <param name="secondOfMinute">The second.</param>
+            <returns>A <see cref="T:NodaTime.Testing.FakeClock"/> initialised to the given instant, with no auto-advance.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.FakeClock.Advance(NodaTime.Duration)">
+            <summary>
+            Advances the clock by the given duration.
+            </summary>
+            <param name="duration">The duration to advance the clock by (or if negative, the duration to move it back
+            by).</param>
+        </member>
+        <member name="M:NodaTime.Testing.FakeClock.AdvanceNanoseconds(System.Int64)">
+            <summary>
+            Advances the clock by the given number of nanoseconds.
+            </summary>
+            <param name="nanoseconds">The number of nanoseconds to advance the clock by (or if negative, the number to move it back
+            by).</param>
+        </member>
+        <member name="M:NodaTime.Testing.FakeClock.AdvanceTicks(System.Int64)">
+            <summary>
+            Advances the clock by the given number of ticks.
+            </summary>
+            <param name="ticks">The number of ticks to advance the clock by (or if negative, the number to move it back
+            by).</param>
+        </member>
+        <member name="M:NodaTime.Testing.FakeClock.AdvanceMilliseconds(System.Int64)">
+            <summary>
+            Advances the clock by the given number of milliseconds.
+            </summary>
+            <param name="milliseconds">The number of milliseconds to advance the clock by (or if negative, the number
+            to move it back by).</param>
+        </member>
+        <member name="M:NodaTime.Testing.FakeClock.AdvanceSeconds(System.Int64)">
+            <summary>
+            Advances the clock by the given number of seconds.
+            </summary>
+            <param name="seconds">The number of seconds to advance the clock by (or if negative, the number to move it
+            back by).</param>
+        </member>
+        <member name="M:NodaTime.Testing.FakeClock.AdvanceMinutes(System.Int64)">
+            <summary>
+            Advances the clock by the given number of minutes.
+            </summary>
+            <param name="minutes">The number of minutes to advance the clock by (or if negative, the number to move it
+            back by).</param>
+        </member>
+        <member name="M:NodaTime.Testing.FakeClock.AdvanceHours(System.Int32)">
+            <summary>
+            Advances the clock by the given number of hours.
+            </summary>
+            <param name="hours">The number of hours to advance the clock by (or if negative, the number to move it
+            back by).</param>
+        </member>
+        <member name="M:NodaTime.Testing.FakeClock.AdvanceDays(System.Int32)">
+            <summary>
+            Advances the clock by the given number of standard (24-hour) days.
+            </summary>
+            <param name="days">The number of days to advance the clock by (or if negative, the number to move it
+            back by).</param>
+        </member>
+        <member name="M:NodaTime.Testing.FakeClock.Reset(NodaTime.Instant)">
+            <summary>
+            Resets the clock to the given instant.
+            The value of the <see cref="P:NodaTime.Testing.FakeClock.AutoAdvance"/> property will be unchanged.
+            </summary>
+            <param name="instant">The instant to set the clock to.</param>
+        </member>
+        <member name="M:NodaTime.Testing.FakeClock.GetCurrentInstant">
+            <summary>
+            Returns the "current time" for this clock. Unlike a normal clock, this
+            property may return the same value from repeated calls until one of the methods
+            to change the time is called.
+            </summary>
+            <remarks>
+            If the value of the <see cref="P:NodaTime.Testing.FakeClock.AutoAdvance"/> property is non-zero, then every
+            call to this method will advance the current time by that value.
+            </remarks>
+            <returns>The "current time" from this (fake) clock.</returns>
+        </member>
+        <member name="P:NodaTime.Testing.FakeClock.AutoAdvance">
+            <summary>
+            Gets the amount of time to advance the clock by on each call to read the current time.
+            </summary>
+            <remarks>
+            <para>
+            This defaults to zero, with the exception of the <see cref="M:NodaTime.Testing.FakeClock.#ctor(NodaTime.Instant,NodaTime.Duration)"/> constructor,
+            which takes the initial value directly.  If this is zero, the current time as reported by this clock will
+            not change other than by calls to <see cref="M:NodaTime.Testing.FakeClock.Reset(NodaTime.Instant)"/> or to one of the <see cref="M:NodaTime.Testing.FakeClock.Advance(NodaTime.Duration)"/> methods.
+            </para>
+            <para>
+            The value could even be negative, to simulate particularly odd system clock effects.
+            </para>
+            </remarks>
+            <seealso cref="M:NodaTime.Testing.FakeClock.GetCurrentInstant"/>
+            <value>The amount of time to advance the clock by on each call to read the current time.</value>
+        </member>
+        <member name="T:NodaTime.Testing.NamespaceDoc">
+            <summary>
+            <para>
+            The NodaTime.Testing namespace contains types designed to help write tests against
+            code which uses Noda Time. "Child" namespaces are organized to reflect the same structure
+            as the main project.
+            </para>
+            <para>
+            This code is not included as part of the main NuGet package; it's in a separate NodaTime.Testing package.
+            </para>
+            </summary>
+        </member>
+        <member name="T:NodaTime.Testing.Preconditions">
+            <summary>
+            Helper static methods for argument/state validation. Copied from NodaTime.Utility,
+            as we don't want the Testing assembly to have internal access to NodaTime, but we
+            don't really want to expose Preconditions publically.
+            </summary>
+        </member>
+        <member name="M:NodaTime.Testing.Preconditions.CheckNotNull``1(``0,System.String)">
+            <summary>
+            Returns the given argument after checking whether it's null. This is useful for putting
+            nullity checks in parameters which are passed to base class constructors.
+            </summary>
+        </member>
+        <member name="T:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource">
+            <summary>
+            A time zone source for test purposes.
+            Create instances via <see cref="T:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder"/>.
+            </summary>
+        </member>
+        <member name="M:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.ToProvider">
+            <summary>
+            Creates a time zone provider (<see cref="T:NodaTime.TimeZones.DateTimeZoneCache"/>) from this source.
+            </summary>
+            <returns>A provider backed by this source.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.GetIds">
+            <inheritdoc />
+        </member>
+        <member name="P:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.VersionId">
+            <inheritdoc />
+        </member>
+        <member name="M:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.ForId(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.GetSystemDefaultId">
+            <summary>
+            Returns this source's ID for the system default time zone.
+            </summary>
+            <returns>
+            The ID for the system default time zone for this source,
+            or null if the system default time zone has no mapping in this source.
+            </returns>
+        </member>
+        <member name="T:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder">
+            <summary>
+            Builder for <see cref="T:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource"/>, allowing the built object to
+            be immutable, but constructed via object/collection initializers.
+            </summary>
+        </member>
+        <member name="P:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.BclIdsToZoneIds">
+            <summary>
+            Gets the dictionary mapping BCL <see cref="T:System.TimeZoneInfo"/> IDs to the canonical IDs
+            served within the provider being built.
+            </summary>
+            <value>The dictionary mapping BCL IDs to the canonical IDs served within the provider
+            being built.</value>
+        </member>
+        <member name="P:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.Zones">
+            <summary>
+            Gets the list of zones, exposed as a property for use when a test needs to set properties as
+            well as adding zones.
+            </summary>
+            <value>The list of zones within the provider being built.</value>
+        </member>
+        <member name="P:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.VersionId">
+            <summary>
+            Gets the version ID to advertise; defaults to "TestZones".
+            </summary>
+            <value>The version ID to advertise; defaults to "TestZones".</value>
+        </member>
+        <member name="M:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.#ctor">
+            <summary>
+            Creates a new builder.
+            </summary>
+        </member>
+        <member name="M:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.Add(NodaTime.DateTimeZone)">
+            <summary>
+            Adds a time zone to the builder.
+            </summary>
+            <param name="zone">The zone to add.</param>
+        </member>
+        <member name="M:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.GetEnumerator">
+            <summary>
+            Returns the zones within the builder. This mostly exists
+            to enable collection initializers.
+            </summary>
+            <returns>An iterator over the zones in this builder.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            Explicit interface implementation of <see cref="T:System.Collections.IEnumerator"/>.
+            </summary>
+            <returns>An iterator over the zones in this builder.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.Build">
+            <summary>
+            Builds a time zone source from this builder. The returned
+            builder will be independent of this builder; further changes
+            to this builder will not be reflected in the returned source.
+            </summary>
+            <remarks>
+            This method performs some sanity checks, and throws exceptions if
+            they're violated. Those exceptions are not documented here, and you
+            shouldn't be catching them anyway. (This is aimed at testing...)
+            </remarks>
+            <returns>The newly-built time zone source.</returns>
+        </member>
+        <member name="T:NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone">
+            <summary>
+            Time zone with multiple transitions, created via a builder.
+            </summary>
+        </member>
+        <member name="P:NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Intervals">
+            <summary>
+            Gets the zone intervals within this time zone, in chronological order, spanning the whole time line.
+            </summary>
+            <value>The zone intervals within this time zone, in chronological order, spanning the whole time line.</value>
+        </member>
+        <member name="P:NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Transitions">
+            <summary>
+            Gets the transition points between intervals.
+            </summary>
+            <value>The transition points between intervals.</value>
+        </member>
+        <member name="M:NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.GetZoneInterval(NodaTime.Instant)">
+            <inheritdoc />
+        </member>
+        <member name="T:NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Builder">
+            <summary>
+            Builder to create instances of <see cref="T:NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone"/>. Each builder
+            can only be built once.
+            </summary>
+        </member>
+        <member name="P:NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Builder.Id">
+            <summary>
+            Gets the ID of the time zone which will be built.
+            </summary>
+            <value>The ID of the time zone which will be built.</value>
+        </member>
+        <member name="M:NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Builder.#ctor">
+            <summary>
+            Constructs a builder using an ID of "MultiZone", an initial offset of zero (standard and savings),
+            and an initial name of "First".
+            </summary>
+        </member>
+        <member name="M:NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Builder.#ctor(System.Int32,System.String)">
+            <summary>
+            Constructs a builder using the given first name, standard offset, and a daylight saving
+            offset of 0. The ID is initially "MultiZone".
+            </summary>
+            <param name="firstName">Name of the first zone interval.</param>
+            <param name="firstOffsetHours">Standard offset in hours in the first zone interval.</param>
+        </member>
+        <member name="M:NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Builder.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Constructs a builder using the given standard offset and saving offset. The ID is initially "MultiZone".
+            </summary>
+            <param name="firstStandardOffsetHours">Standard offset in hours in the first zone interval.</param>
+            <param name="firstSavingOffsetHours">Standard offset in hours in the first zone interval.</param>
+        </member>
+        <member name="M:NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Builder.#ctor(System.Int32,System.Int32,System.String)">
+            <summary>
+            Constructs a builder using the given first name, standard offset, and daylight saving offset.
+            The ID is initially "MultiZone".
+            </summary>
+            <param name="firstStandardOffsetHours">Standard offset in hours in the first zone interval.</param>
+            <param name="firstSavingOffsetHours">Daylight saving offset in hours in the first zone interval.</param>
+            <param name="firstName">Name of the first zone interval.</param>
+        </member>
+        <member name="M:NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Builder.Add(NodaTime.Instant,System.Int32)">
+            <summary>
+            Adds a transition at the given instant, to the specified new standard offset,
+            with no daylight saving. The name is generated from the transition.
+            </summary>
+            <param name="transition">Instant at which the zone changes.</param>
+            <param name="newStandardOffsetHours">The new standard offset, in hours.</param>
+        </member>
+        <member name="M:NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Builder.Add(NodaTime.Instant,System.Int32,System.Int32)">
+            <summary>
+            Adds a transition at the given instant, to the specified new standard offset,
+            with the new specified daylight saving. The name is generated from the transition.
+            </summary>
+            <param name="transition">Instant at which the zone changes.</param>
+            <param name="newStandardOffsetHours">The new standard offset, in hours.</param>
+            <param name="newSavingOffsetHours">The new daylight saving offset, in hours.</param>
+        </member>
+        <member name="M:NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Builder.Add(NodaTime.Instant,System.Int32,System.Int32,System.String)">
+            <summary>
+            Adds a transition at the given instant, to the specified new standard offset,
+            with the new specified daylight saving. The name is generated from the transition.
+            </summary>
+            <param name="transition">Instant at which the zone changes.</param>
+            <param name="newStandardOffsetHours">The new standard offset, in hours.</param>
+            <param name="newSavingOffsetHours">The new daylight saving offset, in hours.</param>
+            <param name="newName">The new zone interval name.</param>
+        </member>
+        <member name="M:NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Builder.Build">
+            <summary>
+            Builds a <see cref="T:NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone"/> from this builder, invalidating it in the process.
+            </summary>
+            <returns>The newly-built zone.</returns>
+        </member>
+        <member name="M:NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Builder.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            We don't *really* want to implement this, but we want the collection initializer...
+            </summary>
+        </member>
+        <member name="T:NodaTime.Testing.TimeZones.NamespaceDoc">
+            <summary>
+            <para>
+            Provides types to aid testing production code which uses time zones, to avoid hard-coding
+            knowledge of "real" time zones into tests.
+            </para>
+            <para>
+            This code is not included as part of the main NuGet package; it's in a separate NodaTime.Testing package.
+            </para>
+            </summary>
+        </member>
+        <member name="T:NodaTime.Testing.TimeZones.SingleTransitionDateTimeZone">
+            <summary>
+            Time zone with a single transition between two offsets. This provides a simple way to test behaviour across a transition.
+            </summary>
+        </member>
+        <member name="P:NodaTime.Testing.TimeZones.SingleTransitionDateTimeZone.EarlyInterval">
+            <summary>
+            Gets the <see cref="T:NodaTime.TimeZones.ZoneInterval"/> for the period before the transition, starting at the beginning of time.
+            </summary>
+            <value>The zone interval for the period before the transition, starting at the beginning of time.</value>
+        </member>
+        <member name="P:NodaTime.Testing.TimeZones.SingleTransitionDateTimeZone.LateInterval">
+            <summary>
+            Gets the <see cref="T:NodaTime.TimeZones.ZoneInterval"/> for the period after the transition, ending at the end of time.
+            </summary>
+            <value>The zone interval for the period after the transition, ending at the end of time.</value>
+        </member>
+        <member name="P:NodaTime.Testing.TimeZones.SingleTransitionDateTimeZone.Transition">
+            <summary>
+            Gets the transition instant of the zone.
+            </summary>
+            <value>The transition instant of the zone.</value>
+        </member>
+        <member name="M:NodaTime.Testing.TimeZones.SingleTransitionDateTimeZone.#ctor(NodaTime.Instant,System.Int32,System.Int32)">
+            <summary>
+            Creates a zone with a single transition between two offsets.
+            </summary>
+            <param name="transitionPoint">The transition point as an <see cref="T:NodaTime.Instant"/>.</param>
+            <param name="offsetBeforeHours">The offset of local time from UTC, in hours, before the transition.</param>
+            <param name="offsetAfterHours">The offset of local time from UTC, in hours, before the transition.</param>
+        </member>
+        <member name="M:NodaTime.Testing.TimeZones.SingleTransitionDateTimeZone.#ctor(NodaTime.Instant,NodaTime.Offset,NodaTime.Offset)">
+            <summary>
+            Creates a zone with a single transition between two offsets.
+            </summary>
+            <param name="transitionPoint">The transition point as an <see cref="T:NodaTime.Instant"/>.</param>
+            <param name="offsetBefore">The offset of local time from UTC before the transition.</param>
+            <param name="offsetAfter">The offset of local time from UTC before the transition.</param>
+        </member>
+        <member name="M:NodaTime.Testing.TimeZones.SingleTransitionDateTimeZone.#ctor(NodaTime.Instant,NodaTime.Offset,NodaTime.Offset,System.String)">
+            <summary>
+            Creates a zone with a single transition between two offsets.
+            </summary>
+            <param name="transitionPoint">The transition point as an <see cref="T:NodaTime.Instant"/>.</param>
+            <param name="offsetBefore">The offset of local time from UTC before the transition.</param>
+            <param name="offsetAfter">The offset of local time from UTC before the transition.</param>
+            <param name="id">ID for the newly created time zone.</param>
+        </member>
+        <member name="M:NodaTime.Testing.TimeZones.SingleTransitionDateTimeZone.GetZoneInterval(NodaTime.Instant)">
+            <inheritdoc />
+            <remarks>
+            This returns either the zone interval before or after the transition, based on the instant provided.
+            </remarks>
+        </member>
+    </members>
+</doc>

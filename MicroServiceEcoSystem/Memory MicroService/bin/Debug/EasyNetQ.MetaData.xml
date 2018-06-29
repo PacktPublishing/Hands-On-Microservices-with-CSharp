@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EasyNetQ.MetaData</name>
+    </assembly>
+    <members>
+        <member name="T:EasyNetQ.MetaData.ServiceRegisterExtensions">
+            <summary>
+            Defines extension methods for the <see cref="T:EasyNetQ.IServiceRegister"/> interface.
+            </summary>
+        </member>
+        <member name="M:EasyNetQ.MetaData.ServiceRegisterExtensions.EnableMessageMetaDataBinding(EasyNetQ.IServiceRegister)">
+            <summary>
+            Enables message meta-data binding for the bus.
+            </summary>
+            <param name="registrar">The <see cref="T:EasyNetQ.IServiceRegister"/>instance.</param>
+            <returns>The <see cref="T:EasyNetQ.IServiceRegister"/>instance.</returns>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown if the value passed to the <paramref name="registrar"/> parameter is <c>null</c>.
+            </exception>
+        </member>
+    </members>
+</doc>

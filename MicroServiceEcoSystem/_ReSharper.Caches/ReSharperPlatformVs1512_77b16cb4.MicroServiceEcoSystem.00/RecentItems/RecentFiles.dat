@@ -1,0 +1,51 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="5F87B800-8255-4914-A7B0-C7DFBCFBE4AF/f:MicroServiceManager.cs" caret="0" fromTop="0" />
+    <File id="5F87B800-8255-4914-A7B0-C7DFBCFBE4AF/f:Program.cs" caret="1686" fromTop="12" />
+    <File id="1AC33A3A-2DBF-4314-8AC8-0866D15E24FC/f:QuantMicroService.cs" caret="10276" fromTop="19" />
+    <File id="4CC9619A-3DED-47C3-854C-E977556173B4/f:BondsResponseMessage.cs" caret="250" fromTop="11" />
+    <File id="4CC9619A-3DED-47C3-854C-E977556173B4/f:WikipediaSearchMessage.cs" caret="0" fromTop="0" />
+    <File id="4CC9619A-3DED-47C3-854C-E977556173B4/f:SpeechRequestMessage.cs" caret="356" fromTop="12" />
+    <File id="83D51F16-3206-462F-9C6A-4A2D27611975/f:SpeechBot.cs" caret="0" fromTop="0" />
+    <File id="0607E18D-7221-4064-B62D-2D68918F2B9D/f:DeploymentMonitorMicroservice.cs" caret="0" fromTop="0" />
+    <File id="745E3CE7-E7A7-415A-9D3B-0F6C978671F9/f:Program.cs" caret="0" fromTop="0" />
+    <File id="745E3CE7-E7A7-415A-9D3B-0F6C978671F9/f:BitcoinMS.cs" caret="2574" fromTop="19" />
+    <File id="D1DBFF67-7449-41B6-88E7-CD5EFB2959D6/f:MemoryMicroService.cs" caret="9584" fromTop="13" />
+    <File id="C09602BC-AABF-4E82-9309-D7A69E2B7466/f:Program.cs" caret="0" fromTop="0" />
+    <File id="C09602BC-AABF-4E82-9309-D7A69E2B7466/f:Microservice.cs" caret="0" fromTop="0" />
+    <File id="F2D73A14-010D-43C7-8ED2-38DEC44E9DB9/f:Program.cs" caret="0" fromTop="0" />
+    <File id="6A1CF602-D2DE-4003-B13A-A08F79A735C1/f:Basic MicroService.cs" caret="0" fromTop="0" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="4CC9619A-3DED-47C3-854C-E977556173B4/f:CreditDefaultSwapRequestMessage.cs" caret="0" fromTop="0" />
+    <File id="4CC9619A-3DED-47C3-854C-E977556173B4/f:DeploymentStartMessage.cs" caret="0" fromTop="0" />
+    <File id="4CC9619A-3DED-47C3-854C-E977556173B4/f:EmailSendRequest.cs" caret="0" fromTop="0" />
+    <File id="4CC9619A-3DED-47C3-854C-E977556173B4/f:HealthStatusMessage.cs" caret="0" fromTop="0" />
+    <File id="4CC9619A-3DED-47C3-854C-E977556173B4/f:MLMessage.cs" caret="0" fromTop="0" />
+    <File id="4CC9619A-3DED-47C3-854C-E977556173B4/f:TrelloRequestMessage.cs" caret="0" fromTop="0" />
+    <File id="4CC9619A-3DED-47C3-854C-E977556173B4/f:WikipediaSearchMessage.cs" caret="0" fromTop="0" />
+    <File id="F2D73A14-010D-43C7-8ED2-38DEC44E9DB9/f:BufferingFileSystemWatcher.cs" caret="0" fromTop="0" />
+    <File id="F2D73A14-010D-43C7-8ED2-38DEC44E9DB9/f:EventQueueOverflowException.cs" caret="0" fromTop="0" />
+    <File id="F2D73A14-010D-43C7-8ED2-38DEC44E9DB9/f:Program.cs" caret="0" fromTop="0" />
+    <File id="CF0B0B5F-F8C9-434D-A290-78F29BAF853F/f:MLMicroService.cs" caret="0" fromTop="0" />
+    <File id="ED456B12-1E9C-4DDD-80F5-0E1886B15EB5/f:CapturingClient.cs" caret="0" fromTop="0" />
+    <File id="ED456B12-1E9C-4DDD-80F5-0E1886B15EB5/f:Extensions.cs" caret="0" fromTop="0" />
+    <File id="ED456B12-1E9C-4DDD-80F5-0E1886B15EB5/f:Program.cs" caret="0" fromTop="0" />
+    <File id="ED456B12-1E9C-4DDD-80F5-0E1886B15EB5/f:TrelloIds.cs" caret="0" fromTop="0" />
+    <File id="1AC33A3A-2DBF-4314-8AC8-0866D15E24FC/f:Bonds.cs" caret="0" fromTop="0" />
+    <File id="1AC33A3A-2DBF-4314-8AC8-0866D15E24FC/f:Program.cs" caret="0" fromTop="0" />
+    <File id="5F87B800-8255-4914-A7B0-C7DFBCFBE4AF/f:MicroServiceManager.cs" caret="0" fromTop="0" />
+    <File id="B9C81AE2-73C2-4CC5-9257-42817195AEBB/f:DNSMessage.cs" caret="0" fromTop="0" />
+    <File id="B9C81AE2-73C2-4CC5-9257-42817195AEBB/f:DNSQuery.cs" caret="0" fromTop="0" />
+    <File id="B9C81AE2-73C2-4CC5-9257-42817195AEBB/f:Email.cs" caret="0" fromTop="0" />
+    <File id="B9C81AE2-73C2-4CC5-9257-42817195AEBB/f:EmailMS.cs" caret="0" fromTop="0" />
+    <File id="B9C81AE2-73C2-4CC5-9257-42817195AEBB/f:MailExchange.cs" caret="0" fromTop="0" />
+    <File id="B9C81AE2-73C2-4CC5-9257-42817195AEBB/f:Program.cs" caret="0" fromTop="0" />
+    <File id="745E3CE7-E7A7-415A-9D3B-0F6C978671F9/f:Program.cs" caret="0" fromTop="0" />
+    <File id="C09602BC-AABF-4E82-9309-D7A69E2B7466/f:BufferingFileSystemWatcher.cs" caret="0" fromTop="0" />
+    <File id="C09602BC-AABF-4E82-9309-D7A69E2B7466/f:EventQueueOverflowException.cs" caret="0" fromTop="0" />
+    <File id="C09602BC-AABF-4E82-9309-D7A69E2B7466/f:Microservice.cs" caret="0" fromTop="0" />
+    <File id="C09602BC-AABF-4E82-9309-D7A69E2B7466/f:RecoveringFileSystemWatcher.cs" caret="0" fromTop="0" />
+    <File id="83D51F16-3206-462F-9C6A-4A2D27611975/f:SpeechBot.cs" caret="0" fromTop="0" />
+  </RecentEdits>
+</RecentFiles>

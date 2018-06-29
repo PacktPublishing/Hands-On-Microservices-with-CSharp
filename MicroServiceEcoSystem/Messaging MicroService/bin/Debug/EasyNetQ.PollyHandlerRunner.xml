@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EasyNetQ.PollyHandlerRunner</name>
+    </assembly>
+    <members>
+        <member name="T:EasyNetQ.PollyHandlerRunner.PollyHandlerRunner">
+            <summary>
+            An implementation of <see cref="T:EasyNetQ.Consumer.HandlerRunner"/> which executes message consumers within a Polly policy.
+            </summary>
+        </member>
+        <member name="M:EasyNetQ.PollyHandlerRunner.PollyHandlerRunner.#ctor(EasyNetQ.IEasyNetQLogger,EasyNetQ.Consumer.IConsumerErrorStrategy,EasyNetQ.IEventBus,Polly.Policy)">
+            <summary>
+            Initializes a new instance of the <see cref="T:EasyNetQ.PollyHandlerRunner.PollyHandlerRunner"/> class.
+            </summary>
+            <param name="logger">A reference to an EasyNetQ logger implementation.</param>
+            <param name="consumerErrorStrategy">A reference to a consumer error strategy.</param>
+            <param name="eventBus">A reference to an event bus.</param>
+            <param name="policy">A reference to the policy within which message consumers will be executed.</param>
+        </member>
+        <member name="M:EasyNetQ.PollyHandlerRunner.PollyHandlerRunner.InvokeUserMessageHandler(EasyNetQ.Consumer.ConsumerExecutionContext)">
+            <inheritdoc />
+        </member>
+        <member name="T:EasyNetQ.PollyHandlerRunner.ServiceRegisterExtensions">
+            <summary>
+            Defines extension methods for the <see cref="T:EasyNetQ.IServiceRegister"/> interface.
+            </summary>
+        </member>
+        <member name="M:EasyNetQ.PollyHandlerRunner.ServiceRegisterExtensions.UseMessageHandlerPolicy(EasyNetQ.IServiceRegister,Polly.Policy)">
+            <summary>
+            Configures EasyNetQ to execute message handlers within a Polly policy.
+            </summary>
+            <param name="registrar">Extended instance.</param>
+            <param name="policy">The policy within which message handlers will be executed.</param>
+            <returns>Extended instance.</returns>
+        </member>
+    </members>
+</doc>

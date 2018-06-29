@@ -1,0 +1,234 @@
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\quartz-jobs.config
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Deployment Monitor.exe.config
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Deployment Monitor.exe
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Deployment Monitor.pdb
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\System.Data.Common.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\System.Globalization.Extensions.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\System.IO.Compression.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\System.Net.Http.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\System.Net.Sockets.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\System.Security.SecureString.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\System.Threading.Overlapped.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Autofac.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Autofac.Extras.Quartz.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\AutofacSerilogIntegration.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\EasyNetQ.DI.Autofac.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\EasyNetQ.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\EasyNetQ.Management.Client.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\EasyNetQ.MetaData.Abstractions.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\EasyNetQ.MetaData.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\EasyNetQ.PollyHandlerRunner.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\EasyNetQ.ProcessManager.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Fooidity.AutofacIntegration.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Fooidity.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\JetBrains.Annotations.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\log4net.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Nerdle.Ensure.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Newtonsoft.Json.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\NodaTime.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\NodaTime.NetworkClock.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\NodaTime.Testing.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\NodaTimeFriendlyTimezoneNames.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Polly.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Quartz.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\RabbitMQ.Client.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\ReflectSoftware.Insight.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.Enrichers.Environment.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.Enrichers.Thread.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.Sinks.Console.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.Sinks.File.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.Sinks.Literate.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.Sinks.PeriodicBatching.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.Sinks.RabbitMQ.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.Sinks.Trace.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\SimpleExtension.Topshelf.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Spark.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Topshelf.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Topshelf.Autofac.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Topshelf.Diagnostics.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Autofac.xml
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Autofac.Extras.Quartz.pdb
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Autofac.Extras.Quartz.xml
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\EasyNetQ.MetaData.pdb
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\EasyNetQ.MetaData.xml
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\EasyNetQ.MetaData.Abstractions.pdb
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\EasyNetQ.MetaData.Abstractions.xml
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\EasyNetQ.PollyHandlerRunner.xml
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\EasyNetQ.ProcessManager.pdb
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\EasyNetQ.ProcessManager.xml
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\JetBrains.Annotations.xml
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\log4net.xml
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Newtonsoft.Json.xml
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\NodaTime.pdb
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\NodaTime.xml
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\NodaTime.NetworkClock.xml
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\NodaTime.Testing.pdb
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\NodaTime.Testing.xml
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\NodaTimeFriendlyTimezoneNames.pdb
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Polly.pdb
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Polly.xml
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Quartz.pdb
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Quartz.xml
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\RabbitMQ.Client.xml
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\ReflectSoftware.Insight.xml
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.xml
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.Enrichers.Thread.xml
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.Sinks.Console.xml
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.Sinks.File.xml
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.Sinks.Literate.xml
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.Sinks.PeriodicBatching.xml
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.Sinks.Trace.xml
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Topshelf.xml
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\obj\Debug\Deployment Monitor.csprojAssemblyReference.cache
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\obj\Debug\Deployment Monitor.exe.config
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\obj\Debug\Deployment Monitor.csproj.CoreCompileInputs.cache
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\obj\Debug\Deployment Monitor.csproj.CopyComplete
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\obj\Debug\Deployment Monitor.exe
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\obj\Debug\Deployment Monitor.pdb
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\CommonMessages.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\CommonMessages.pdb
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\MicroServiceEcoSystem_Framework.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\MicroServiceEcoSystem_Framework.pdb
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\MicroServiceEcoSystem_Framework.dll.config
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Base MicroService.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Topshelf.Log4Net.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Base MicroService.pdb
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Base MicroService.dll.config
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Topshelf.Log4Net.xml
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\CircuitBreaker.Net.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\CodeContracts.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\CacheManager.Core.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\CacheManager.Core.xml
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Grumpy.ServiceBase.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Colorful.Console.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Grumpy.Common.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Grumpy.Common.pdb
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Development\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\quartz-jobs.config
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Deployment Monitor.exe.config
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Deployment Monitor.exe
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Deployment Monitor.pdb
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\System.Data.Common.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\System.Diagnostics.StackTrace.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\System.Diagnostics.Tracing.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\System.Globalization.Extensions.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\System.IO.Compression.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\System.Net.Http.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\System.Net.Sockets.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\System.Runtime.Serialization.Primitives.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\System.Security.Cryptography.Algorithms.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\System.Security.SecureString.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\System.Threading.Overlapped.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\System.Xml.XPath.XDocument.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Autofac.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Autofac.Extras.Quartz.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\AutofacSerilogIntegration.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Base MicroService.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\CircuitBreaker.Net.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\CodeContracts.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Colorful.Console.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\CommonMessages.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\EasyNetQ.DI.Autofac.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\EasyNetQ.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\EasyNetQ.Management.Client.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\EasyNetQ.MetaData.Abstractions.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\EasyNetQ.MetaData.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\EasyNetQ.PollyHandlerRunner.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\EasyNetQ.ProcessManager.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Fooidity.AutofacIntegration.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Fooidity.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Grumpy.Common.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Grumpy.ServiceBase.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\JetBrains.Annotations.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\log4net.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\MicroServiceEcoSystem_Framework.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Nerdle.Ensure.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Newtonsoft.Json.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\NodaTime.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\NodaTime.NetworkClock.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\NodaTime.Testing.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\NodaTimeFriendlyTimezoneNames.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Polly.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Quartz.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\RabbitMQ.Client.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\ReflectSoftware.Insight.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.Enrichers.Environment.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.Enrichers.Thread.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.Sinks.Console.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.Sinks.File.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.Sinks.Literate.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.Sinks.PeriodicBatching.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.Sinks.RabbitMQ.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.Sinks.Trace.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\SimpleExtension.Topshelf.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Spark.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Topshelf.Autofac.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Topshelf.Diagnostics.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Topshelf.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Topshelf.Log4Net.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\CacheManager.Core.dll
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Base MicroService.pdb
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Base MicroService.dll.config
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\CommonMessages.pdb
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\MicroServiceEcoSystem_Framework.pdb
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\MicroServiceEcoSystem_Framework.dll.config
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Autofac.xml
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Autofac.Extras.Quartz.pdb
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Autofac.Extras.Quartz.xml
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\EasyNetQ.MetaData.pdb
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\EasyNetQ.MetaData.xml
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\EasyNetQ.MetaData.Abstractions.pdb
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\EasyNetQ.MetaData.Abstractions.xml
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\EasyNetQ.PollyHandlerRunner.xml
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\EasyNetQ.ProcessManager.pdb
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\EasyNetQ.ProcessManager.xml
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Grumpy.Common.pdb
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\JetBrains.Annotations.xml
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\log4net.xml
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Newtonsoft.Json.xml
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\NodaTime.pdb
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\NodaTime.xml
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\NodaTime.NetworkClock.xml
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\NodaTime.Testing.pdb
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\NodaTime.Testing.xml
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\NodaTimeFriendlyTimezoneNames.pdb
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Polly.pdb
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Polly.xml
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Quartz.pdb
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Quartz.xml
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\RabbitMQ.Client.xml
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\ReflectSoftware.Insight.xml
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.xml
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.Enrichers.Thread.xml
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.Sinks.Console.xml
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.Sinks.File.xml
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.Sinks.Literate.xml
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.Sinks.PeriodicBatching.xml
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Serilog.Sinks.Trace.xml
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Topshelf.xml
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\Topshelf.Log4Net.xml
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\bin\Debug\CacheManager.Core.xml
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\obj\Debug\Deployment Monitor.csprojAssemblyReference.cache
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\obj\Debug\Deployment Monitor.exe.config
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\obj\Debug\Deployment Monitor.csproj.CoreCompileInputs.cache
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\obj\Debug\Deployment Monitor.csproj.CopyComplete
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\obj\Debug\Deployment Monitor.exe
+E:\MicroServiceEcoSystem-20180620T040440Z-001\MicroServiceEcoSystem\Deployment Monitor\obj\Debug\Deployment Monitor.pdb

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>EasyNetQ.ProcessManager</name></assembly>
+<members>
+<member name="T:EasyNetQ.ProcessManager.EasyNetQPMBus">
+<summary>
+ Default implementation of IPMBus, using EasyNetQ. This will preserve any custom
+ configuration you have applied to the IBus using EasyNetQ&apos;s IoC container, such
+ as overriding exchange conventions.
+</summary>
+</member>
+<member name="M:EasyNetQ.ProcessManager.IActiveStore.WorkflowActive(EasyNetQ.ProcessManager.WorkflowId)">
+<summary>
+ Check if there are any outstanding continuations active for the given WorkflowId.
+</summary>
+</member>
+<member name="M:EasyNetQ.ProcessManager.IActiveStore.Remove``1(EasyNetQ.ProcessManager.CorrelationId,EasyNetQ.ProcessManager.StepName,EasyNetQ.ProcessManager.WorkflowId)">
+<summary>
+ Remove all continuations related to the CorrelationId and type from the store.
+</summary>
+</member>
+<member name="M:EasyNetQ.ProcessManager.IActiveStore.ProcessElapsed(Microsoft.FSharp.Core.FSharpFunc{EasyNetQ.ProcessManager.Elapsed,Microsoft.FSharp.Core.Unit})">
+<summary>
+ For each expired continuation in the store, apply the elapsed function.
+ Implementations of this interface must guarantee that the processing of each
+ continuation is atomic.
+</summary>
+</member>
+<member name="M:EasyNetQ.ProcessManager.IActiveStore.Continuations``1(EasyNetQ.ProcessManager.CorrelationId)">
+<summary>
+ Get all continuations for type &apos;a and the given CorrelationId.
+</summary>
+</member>
+<member name="M:EasyNetQ.ProcessManager.IActiveStore.CancelWorkflow(EasyNetQ.ProcessManager.WorkflowId)">
+<summary>
+ Remove all continuations associated with a WorkflowId.
+</summary>
+</member>
+<member name="M:EasyNetQ.ProcessManager.IActiveStore.Add``1(EasyNetQ.ProcessManager.Active)">
+<summary>
+ Add a continuation to the store.
+</summary>
+</member>
+<member name="T:EasyNetQ.ProcessManager.IActiveStore">
+<summary>
+ A store of &quot;active&quot; continuations that a process manager is waiting to
+ callback when a message arrives.
+</summary>
+</member>
+<member name="M:EasyNetQ.ProcessManager.IPMBus.Subscribe``1(System.String,System.String,System.Action{``0})">
+<summary>
+ Subscribe to messages of type &apos;a and a matching topic, and call the action when they arrive
+</summary>
+</member>
+<member name="M:EasyNetQ.ProcessManager.IPMBus.Subscribe``1(System.String,System.Action{``0})">
+<summary>
+ Subscribe to all messages of type &apos;a and call the action when they arrive
+</summary>
+</member>
+<member name="M:EasyNetQ.ProcessManager.IPMBus.Publish``1(``0,System.TimeSpan,System.String)">
+<summary>
+ Publish a message of type &apos;a with an expiring time after which the
+ transport guarantees it will not be delivered, and a topic to allow
+ topic based subscribers to recieve it.
+</summary>
+</member>
+<member name="M:EasyNetQ.ProcessManager.IPMBus.Publish``1(``0,System.TimeSpan)">
+<summary>
+ Publish a message of type &apos;a with an expiring time after which the
+ transport guarantees it will not be delivered.
+</summary>
+</member>
+<member name="T:EasyNetQ.ProcessManager.IPMBus">
+<summary>
+ Interface to represent the transport mechanism used to provide type based
+ routing. Optionally allows for topics to be specified.
+</summary>
+</member>
+<member name="M:EasyNetQ.ProcessManager.IState.TryUpdate``1(System.Func{``0,``0},``0@)">
+<summary>
+ Try and update a state of type &apos;a from the state store
+</summary>
+</member>
+<member name="M:EasyNetQ.ProcessManager.IState.GetOrAdd``1(``0)">
+<summary>
+ Get the item of type &apos;a associated with this workflow
+ or add a new item if there isn&apos;t one.
+ Returns the item that is stored at the end of the operation.
+</summary>
+</member>
+<member name="M:EasyNetQ.ProcessManager.IState.Get``1">
+<summary>
+ Get the item of type &apos;a that is associatied with this
+ workflow, returning an option type as it might not exist.
+</summary>
+</member>
+<member name="M:EasyNetQ.ProcessManager.IState.AddOrUpdate``1(``0,System.Func{``0,``0})">
+<summary>
+ Add a new item of type &apos;a to the state store if there
+ is not an item of this type already associated with the
+ workflow, or update it with the provided function if 
+ there is.
+</summary>
+</member>
+<member name="T:EasyNetQ.ProcessManager.IState">
+<summary>
+ A type keyed store of items associated with a particular
+ instance of a workflow.
+
+ Implementations of this interface take responisibility for
+ ensuring operations invoked are atomic.
+</summary>
+</member>
+<member name="T:EasyNetQ.ProcessManager.IStateStore">
+<summary>
+ A store that knows how to store/retrieve the relevant IState for
+ a particular WorkflowId
+</summary>
+</member>
+<member name="T:EasyNetQ.ProcessManager.Mapping`1">
+<summary>
+ A mapping from a Key string to a function that
+ knows how to handle messages of type &apos;a
+</summary>
+</member>
+<member name="M:EasyNetQ.ProcessManager.Out.sendOnTopic``1(``0,System.TimeSpan,System.String,EasyNetQ.ProcessManager.Out)">
+<summary>
+ Add a topic based &quot;request&quot; to be published as a result of this workflow step.
+</summary>
+</member>
+<member name="M:EasyNetQ.ProcessManager.Out.send``1(``0,System.TimeSpan,EasyNetQ.ProcessManager.Out)">
+<summary>
+ Add a &quot;request&quot; to the workflow output. This request will be published.
+</summary>
+</member>
+<member name="P:EasyNetQ.ProcessManager.Out.WillCancel">
+<summary>
+ Check if this Out will cancel the workflow
+</summary>
+</member>
+<member name="P:EasyNetQ.ProcessManager.Out.Ignore">
+<summary>
+ There is no need to take any further actions as a result of this workflow step.
+</summary>
+</member>
+<member name="P:EasyNetQ.ProcessManager.Out.End">
+<summary>
+ Notify the process manager that this workflow should be ended immediately,
+ and no further continuations should be processed.
+</summary>
+</member>
+<member name="P:EasyNetQ.ProcessManager.Out.Empty">
+<summary>
+ There is no need to take any further actions as a result of this workflow step.
+</summary>
+</member>
+<member name="M:EasyNetQ.ProcessManager.Out.expect``1(System.String,System.String,System.TimeSpan,Microsoft.FSharp.Core.FSharpOption{System.String},EasyNetQ.ProcessManager.Out)">
+<summary>
+ Add a continuation to be expected as a result of this workflow step.
+ You cannot both add a continuation and cancel a workflow in the same workflow step.
+</summary>
+</member>
+<member name="M:EasyNetQ.ProcessManager.Out.Send``1(``0,System.TimeSpan,System.String)">
+<summary>
+ Add a topic based &quot;request&quot; to be published as a result of this workflow step.
+</summary>
+</member>
+<member name="M:EasyNetQ.ProcessManager.Out.Send``1(``0,System.TimeSpan)">
+<summary>
+ Add a &quot;request&quot; to the workflow output. This request will be published.
+</summary>
+</member>
+<member name="M:EasyNetQ.ProcessManager.Out.Requests">
+<summary>
+ Read only sequence of requests in this instance
+</summary>
+</member>
+<member name="M:EasyNetQ.ProcessManager.Out.Expect``1(System.String,System.String,System.TimeSpan)">
+<summary>
+ Add a continuation to be expected as a result of this workflow step.
+ You cannot both add a continuation and cancel a workflow in the same workflow step.
+</summary>
+</member>
+<member name="M:EasyNetQ.ProcessManager.Out.Expect``1(System.String,System.String,System.TimeSpan,System.String)">
+<summary>
+ Add a continuation to be expected as a result of this workflow step.
+ You cannot both add a continuation and cancel a workflow in the same workflow step.
+ A TimeOutMessage will be published to be handled by timeOutHandler if the expected
+ message does not arrive within the timeOut TimeSpan.
+</summary>
+</member>
+<member name="M:EasyNetQ.ProcessManager.Out.Continuations">
+<summary>
+ Read only sequence of continuations in this instance
+</summary>
+</member>
+<member name="T:EasyNetQ.ProcessManager.Out">
+<summary>
+ Type representing the output of a workflow step: the messages that should be
+ published, and the continuations that should be expected.
+</summary>
+</member>
+<member name="M:EasyNetQ.ProcessManager.ProcessManager.StartFromSubcribe``1(System.Func{``0,EasyNetQ.ProcessManager.IState,EasyNetQ.ProcessManager.Out},System.String)">
+<summary>
+ Subscribe to a specific message type and topic on the transport, and start a new workflow when it is
+ recieved. startFunc will be given the message and an initial, empty, IState
+</summary>
+</member>
+<member name="M:EasyNetQ.ProcessManager.ProcessManager.StartFromSubcribe``1(System.Func{``0,EasyNetQ.ProcessManager.IState,EasyNetQ.ProcessManager.Out})">
+<summary>
+ Subscribe to a specific message type on the transport, and start a new workflow when it is
+ recieved. startFunc will be given the message and an initial, empty, IState
+</summary>
+</member>
+<member name="M:EasyNetQ.ProcessManager.ProcessManager.Start(System.Func{EasyNetQ.ProcessManager.IState,EasyNetQ.ProcessManager.Out})">
+<summary>
+ Start a workflow with the provided startFunc; an initial empty state is passed into the func,
+ and a Out most be provided to set up the initial requests to be published and continuations to
+ expect.
+</summary>
+</member>
+<member name="M:EasyNetQ.ProcessManager.ProcessManager.AddProcessor``1(Microsoft.FSharp.Core.FSharpFunc{``0,System.String},System.Collections.Generic.IEnumerable{System.Tuple{System.String,Microsoft.FSharp.Core.FSharpFunc{``0,Microsoft.FSharp.Core.FSharpFunc{EasyNetQ.ProcessManager.IState,EasyNetQ.ProcessManager.Out}}}})">
+<summary>
+ Add a processor to the ProcessManager. A processor knows how to extract a correlationId
+ from a type, and a mapping from a named continuation to a .net function.
+</summary>
+</member>
+<member name="M:EasyNetQ.ProcessManager.ProcessManager.AddProcessor``1(System.Func{``0,System.String},EasyNetQ.ProcessManager.Mapping{``0})">
+<summary>
+ Add a processor to the ProcessManager. A processor knows how to extract a correlationId
+ from a type, and a mapping from a named continuation to a .net function.
+</summary>
+</member>
+<member name="M:EasyNetQ.ProcessManager.ProcessManager.AddProcessor``1(System.Func{``0,System.String},System.Collections.Generic.IEnumerable{EasyNetQ.ProcessManager.Mapping{``0}})">
+<summary>
+ Add a processor to the ProcessManager. A processor knows how to extract a correlationId
+ from a type, and mappings from a named continuation to a .net function.
+</summary>
+</member>
+<member name="T:EasyNetQ.ProcessManager.ProcessManager">
+<summary>
+ ProcessManager is a type designed to handle workflow management on top of a type 
+ routed messaging infrastructure. If used with EasyNetQ, it will handle all publishing
+ and subscriptions required, as well as managing expected continuations and their
+ expiry. ProcessManager will never create more than one subscription per topic per
+ type to the underlying bus, regardless of how many processes are attached to the
+ type.
+</summary>
+</member>
+<member name="T:EasyNetQ.ProcessManager.TimeOutMessage">
+<summary>
+ Messages of this type will be published if a workflow&apos;s continuation
+ is not called before it expires and a time out handler is configured.
+</summary>
+</member>
+<member name="T:EasyNetQ.ProcessManager.Transport.InProcess.InProcessPMBus">
+<summary>
+ Memory based bus implementation designed for testing
+</summary>
+</member>
+</members>
+</doc>

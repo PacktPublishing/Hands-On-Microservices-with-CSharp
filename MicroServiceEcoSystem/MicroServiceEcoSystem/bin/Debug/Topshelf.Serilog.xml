@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Topshelf.Serilog</name>
+    </assembly>
+    <members>
+        <member name="M:Topshelf.SerilogConfigurationExtensions.UseSerilog(Topshelf.HostConfigurators.HostConfigurator)">
+            <summary>
+            Configures Topshelf to use Serilog for logging, using the global <see cref="P:Serilog.Log.Logger"/> instance to derive its loggers.
+            </summary>
+        </member>
+        <member name="M:Topshelf.SerilogConfigurationExtensions.UseSerilog(Topshelf.HostConfigurators.HostConfigurator,Serilog.LoggerConfiguration)">
+            <summary>
+            Configures Topshelf to use Serilog for logging, using the given <see cref="T:Serilog.LoggerConfiguration"/> to create loggers.
+            </summary>
+        </member>
+        <member name="M:Topshelf.SerilogConfigurationExtensions.UseSerilog(Topshelf.HostConfigurators.HostConfigurator,Serilog.ILogger)">
+            <summary>
+            Configures Topshelf to use Serilog for logging, using the given root logger <see cref="T:Serilog.ILogger"/> to create loggers.
+            </summary>
+        </member>
+    </members>
+</doc>
