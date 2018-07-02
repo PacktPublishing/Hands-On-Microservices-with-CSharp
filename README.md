@@ -26,6 +26,9 @@ alt="https://www.packtpub.com/" border="5" /></a>
 ## Instructions and Navigations
 All of the code files are there in MicroServiceEcoSystem folder except Chapter02.
 
+* While doing the code testing on this title please refer the software hardware list from Packt website
+* The complete code bundle, including Chapter02 log file can be downloaded from the Packt website
+
 The code will look like the following:
 ```
 public class DeploymentStartMessage
