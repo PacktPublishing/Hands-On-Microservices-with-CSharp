@@ -71,5 +71,8 @@ Matt R. Cole is a seasoned developer with 30 years' experience in Microsoft Wind
 ## Other books by the authors
 * Hands-On Machine Learning with C# [[Packt]](https://www.packtpub.com/big-data-and-business-intelligence/hands-machine-learning-c?utm_source=github&utm_medium=repository&utm_campaign=978-1-78899-494-1)
 
+### Suggestions and Feedback
+[Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
+
 
 
