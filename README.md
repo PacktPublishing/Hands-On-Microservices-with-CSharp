@@ -24,7 +24,7 @@ alt="https://www.packtpub.com/" border="5" /></a>
 
 
 ## Instructions and Navigations
-All of the code files are there in MicroServiceEcoSystem folder except chapter02.
+All of the code files are there in MicroServiceEcoSystem folder except Chapter02.
 
 The code will look like the following:
 ```
