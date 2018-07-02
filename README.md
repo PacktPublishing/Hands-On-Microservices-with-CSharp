@@ -39,6 +39,7 @@ public DateTime Date { get; set; }
 ```
 
 **Following is what you need for this book:**
+
 C# developers, software architects, and professionals who want to master the art of designing the microservice architecture that 
 is scalable based on environment. Developers should have a basic understanding of.NET application development using C# and Visual Studio
 
