@@ -10,7 +10,7 @@ This is the code repository for [Hands-On Microservices with C#](https://www.pac
 ## What is this book about?
 C# is a powerful language when it comes to building applications and software architecture using rich libraries and tools such as .NET.
 
-This book covers the following exciting features: <First 5 What you'll learn points>
+This book covers the following exciting features:
 *Explore different open source tools within the context of designing microservices
 *Learn to provide insulation to exception-prone function calls
 *Build common messages used between microservices for communication
