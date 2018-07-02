@@ -5,7 +5,7 @@ utm_campaign=978-1-78953-368-2"><img src="https://dz13w8afd47il.cloudfront.net/s
 
 This is the code repository for [Hands-On Microservices with C#](https://www.packtpub.com/application-development/hands-microservices-c?utm_source=github&utm_medium=repository&utm_campaign=978-1-78953-368-2), published by Packt.
 
-**Designing a real-worl, enterprise-grade microservice ecosystem with the efficiency of C# 7**
+**Designing a real-world, enterprise-grade microservice ecosystem with the efficiency of C# 7**
 
 ## What is this book about?
 C# is a powerful language when it comes to building applications and software architecture using rich libraries and tools such as .NET.
