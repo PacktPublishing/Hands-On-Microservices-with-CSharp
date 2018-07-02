@@ -60,6 +60,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 ## Get to Know the Author
 **Matt R. Cole**
+
 Matt R. Cole is a seasoned developer with 30 years' experience in Microsoft Windows, C, C++, C#, and .NET. He previously wrote a speech and audio VOIP system for NASA for use with the Space Shuttle and a space station. He is the owner of Evolved AI Solutions, a premier provider of advanced ML/Bio-AI technologies. He developed the first enterprise-grade microservice framework (written fully in C# and .NET) used by a major hedge fund in NYC and also developed the first Bio-AI Swarm framework, which fully integrates mirror and canonical neurons.
 
 
