@@ -43,7 +43,7 @@ public DateTime Date { get; set; }
 C# developers, software architects, and professionals who want to master the art of designing the microservice architecture that 
 is scalable based on environment. Developers should have a basic understanding of.NET application development using C# and Visual Studio
 
-With the following software and hardware list you can run all code files present in the book (Chapter 1-15).
+With the following software and hardware list you can run all code files present in the book (Chapter 1-14).
 
 ### Software and Hardware List
 
