@@ -35,9 +35,6 @@
     <Reference Include="Autofac, Version=4.8.1.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
       <HintPath>..\packages\Autofac.4.8.1\lib\net45\Autofac.dll</HintPath>
     </Reference>
-    <Reference Include="Base MicroService">
-      <HintPath>..\..\..\MicroServiceEcoSystem\Base MicroService\bin\Debug\Base MicroService.dll</HintPath>
-    </Reference>
     <Reference Include="CacheManager.Core, Version=1.1.2.0, Culture=neutral, PublicKeyToken=5b450b4fb65c4cdb, processorArchitecture=MSIL">
       <HintPath>..\packages\CacheManager.Core.1.1.2\lib\net45\CacheManager.Core.dll</HintPath>
     </Reference>
@@ -49,9 +46,6 @@
     </Reference>
     <Reference Include="Colorful.Console, Version=1.2.9.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Colorful.Console.1.2.9\lib\net461\Colorful.Console.dll</HintPath>
-    </Reference>
-    <Reference Include="CommonMessages">
-      <HintPath>..\..\..\MicroServiceEcoSystem\CommonMessages\bin\Debug\CommonMessages.dll</HintPath>
     </Reference>
     <Reference Include="EasyNetQ, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\EasyNetQ.3.0.0\lib\net451\EasyNetQ.dll</HintPath>
@@ -191,6 +185,20 @@
     <EmbeddedResource Include="SpeechBotUI.resx">
       <DependentUpon>SpeechBotUI.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Base MicroService\Base MicroService.csproj">
+      <Project>{6a1cf602-d2de-4003-b13a-a08f79a735c1}</Project>
+      <Name>Base MicroService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommonMessages\CommonMessages.csproj">
+      <Project>{4cc9619a-3ded-47c3-854c-e977556173b4}</Project>
+      <Name>CommonMessages</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MicroServiceEcoSystem\MicroServiceEcoSystem_Framework.csproj">
+      <Project>{4e5c1fd6-3505-4a6e-ba50-fe3405fadee6}</Project>
+      <Name>MicroServiceEcoSystem_Framework</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
